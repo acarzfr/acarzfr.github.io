@@ -50,9 +50,9 @@ format:
 comments:
     giscus: 
       repo: acarzfr/acarzfr.github.io
-      repo-id: R_kgDOINSXzA
+      repo-id: R_kgDOQROreg
       category: Announcements
-      category-id: DIC_kwDOINSXzM4CR9ea
+      category-id: DIC_kwDOQROres4Cxiyp
       mapping: pathname
       reactions-enabled: true
       input-position: bottom
@@ -60,3 +60,4 @@ comments:
         dark: dark_tritanopia
         light: light_tritanopia
       language: tr 
+
