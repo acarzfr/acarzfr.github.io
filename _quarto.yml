@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+  
+bibliography: references.bib
+
+website:
+  description: "Zafer Acar'ın kişisel internet sitesi"
+  site-url: https://acarzfr.github.io
+  repo-url: https://github.com/acarzfr/acarzfr.github.io
+  title: "acarzfr"
+  navbar:
+    right:
+      - about.qmd
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCAQGUmp3rsd-m-c-pVpMfQw
+      - icon: github
+        href: https://github.com/acarzfr/
+      - icon: rss
+        href: index.xml
+    repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    left:
+      - href: https://www.quarto.org
+        text: "Burası Quarto ile yapıldı."
+    right:
+      - href: https://creativecommons.org/licenses/by-sa/4.0/deed.tr
+        text: "Lisans: CC BY-SA 4.0" 
+      
+  
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        
+      dark:
+        - cyborg
+        
+    css: style/styles.css
+    include-in-header: style/preamble.html
+    mainfont: "Roboto"
+    lang: tr
+
+
+comments:
+    giscus: 
+      repo: acarzfr/acarzfr.github.io
+      repo-id: R_kgDOINSXzA
+      category: Announcements
+      category-id: DIC_kwDOINSXzM4CR9ea
+      mapping: pathname
+      reactions-enabled: true
+      input-position: bottom
+      theme: 
+        dark: dark_tritanopia
+        light: light_tritanopia
+      language: tr 

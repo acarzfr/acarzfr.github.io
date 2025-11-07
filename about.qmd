@@ -1,0 +1,20 @@
+---
+title: "Hakkımda"
+image: acarzfr.png
+comments: false
+about:
+  template: jolla
+  links:
+      - icon: youtube
+        text: YouTube
+        href: https://www.youtube.com/channel/UCAQGUmp3rsd-m-c-pVpMfQw
+      - icon: github
+        text: GitHub
+        href: https://github.com/acarzfr/
+      - icon: email
+        text: Eposta
+        href: mailto:acarzfr@gmail.com
+
+---
+
+About this blog $x^2$ ile 

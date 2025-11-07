@@ -1,0 +1,6 @@
+/* css styles */
+
+/* Genel KaTeX boyutu (çoğunlukla satır içi formülleri etkiler) */
+.katex {
+  font-size: 1.1em;
+}
