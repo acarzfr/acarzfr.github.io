@@ -17,7 +17,7 @@ website:
         text: "Kitaplar"
         href: books.qmd
       - icon: youtube
-        href: https://www.youtube.com/channel/UCAQGUmp3rsd-m-c-pVpMfQw
+        href: https://www.youtube.com/channel/UCMMEohvOIZNs5VEv9WWesNg
       - icon: github
         href: https://github.com/acarzfr/
       - icon: rss
