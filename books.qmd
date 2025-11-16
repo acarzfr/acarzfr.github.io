@@ -1,0 +1,11 @@
+---
+title: "Kitaplar"
+title-block-banner: true
+comments: false
+html-math-method: katex
+toc: true
+---
+
+## 250 Temel Sayılar Teorisi Problemi
+
+Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için [buraya](https://acarzfr.github.io/250problem/) tıklayınız.

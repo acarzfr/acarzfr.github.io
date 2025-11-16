@@ -8,10 +8,14 @@ website:
   description: "Zafer Acar'ın kişisel internet sitesi"
   site-url: https://acarzfr.github.io
   repo-url: https://github.com/acarzfr/acarzfr.github.io
-  title: "acarzfr"
+  title: "Zafer Acar"
   navbar:
     right:
-      - about.qmd
+      - text: "Hakkımda"
+        href: about.qmd
+      - icon: book
+        text: "Kitaplar"
+        href: books.qmd
       - icon: youtube
         href: https://www.youtube.com/channel/UCAQGUmp3rsd-m-c-pVpMfQw
       - icon: github
@@ -60,4 +64,3 @@ comments:
         dark: dark_tritanopia
         light: light_tritanopia
       language: tr 
-

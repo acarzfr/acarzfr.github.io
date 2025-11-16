@@ -1,5 +1,5 @@
 ---
-title: "Hakkımda"
+title: "Zafer Acar"
 image: acarzfr.png
 comments: false
 about:
@@ -11,10 +11,13 @@ about:
       - icon: github
         text: GitHub
         href: https://github.com/acarzfr/
-      - icon: email
+      - icon: envelope
         text: Eposta
         href: mailto:acarzfr@gmail.com
 
 ---
 
-About this blog 
+
+::: {.fade-in}
+Matematiğin dünyasına açılan kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.
+:::
