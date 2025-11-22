@@ -14,10 +14,9 @@ website:
       - text: "Hakkımda"
         href: about.qmd
       - icon: book
-        text: "Kitaplar"
-        href: books.qmd
+        href: https://acarzfr.github.io/books.html
       - icon: youtube
-        href: https://www.youtube.com/channel/UCMMEohvOIZNs5VEv9WWesNg
+        href: https://www.youtube.com/@acar_zfr
       - icon: github
         href: https://github.com/acarzfr/
       - icon: rss
