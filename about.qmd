@@ -7,7 +7,7 @@ about:
   links:
       - icon: youtube
         text: YouTube
-        href: https://www.youtube.com/channel/UCAQGUmp3rsd-m-c-pVpMfQw
+        href: https://www.youtube.com/@acar_zfr
       - icon: github
         text: GitHub
         href: https://github.com/acarzfr/
