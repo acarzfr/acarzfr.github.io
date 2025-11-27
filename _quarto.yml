@@ -46,7 +46,7 @@ format:
         
     css: style/styles.css
     include-in-header: style/preamble.html
-    mainfont: "Roboto"
+    mainfont: "Inter"
     lang: tr
 
 
