@@ -7,7 +7,7 @@ about:
   links:
       - icon: youtube
         text: YouTube
-        href: https://www.youtube.com/@acar_zfr
+        href: https://www.youtube.com/@acarzfr
       - icon: github
         text: GitHub
         href: https://github.com/acarzfr/
@@ -18,6 +18,6 @@ about:
 ---
 
 
-::: {.fade-in}
+::: {.about-animate}
 Matematiğin dünyasına açılan kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.
 :::

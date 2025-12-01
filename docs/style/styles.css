@@ -7,17 +7,18 @@
 
 /* style/styles.css içine eklenecek kod */
 
-.fade-in {
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+.about-animate {
+  animation: slideUpFade 1.2s ease-out forwards;
+  opacity: 0;
 }
 
-@keyframes fadeInAnimation {
+@keyframes slideUpFade {
   0% {
     opacity: 0;
+    transform: translateY(30px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
