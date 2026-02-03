@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Zafer Acar">
+<meta name="description" content="Verilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.">
 
-<title>Kitaplar – Zafer Acar</title>
+<title>Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası – Zafer Acar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,31 +22,51 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-db96ba1acf33914b3c1c7717bb76b37c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1964026b0362981af2eb9922b6dc44bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-db96ba1acf33914b3c1c7717bb76b37c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-db96ba1acf33914b3c1c7717bb76b37c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-1964026b0362981af2eb9922b6dc44bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-db96ba1acf33914b3c1c7717bb76b37c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,17 +97,62 @@ ul.task-list li input[type="checkbox"] {
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
-<link rel="stylesheet" href="style/styles.css">
-<meta property="og:title" content="Kitaplar – Zafer Acar">
-<meta property="og:description" content="Zafer Acar’ın kişisel internet sitesi">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../style/styles.css">
+<meta property="og:title" content="Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası – Zafer Acar">
+<meta property="og:description" content="Verilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.">
+<meta property="og:image" content="https://acarzfr.github.io/posts/polinom-dizileri/image.jpg">
 <meta property="og:site_name" content="Zafer Acar">
-<meta name="twitter:title" content="Kitaplar – Zafer Acar">
-<meta name="twitter:description" content="Zafer Acar’ın kişisel internet sitesi">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası – Zafer Acar">
+<meta name="twitter:description" content="Verilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.">
+<meta name="twitter:image" content="https://acarzfr.github.io/posts/polinom-dizileri/image.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -250,11 +317,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Zafer Acar</span>
     </a>
   </div>
@@ -265,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Hakkımda</span></a>
   </li>  
   <li class="nav-item compact">
@@ -289,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -302,50 +369,186 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Kitaplar</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Bu sayfada</h2>
-   
-  <ul>
-  <li><a href="#temel-sayılar-teorisi-problemi" id="toc-temel-sayılar-teorisi-problemi" class="nav-link active" data-scroll-target="#temel-sayılar-teorisi-problemi">250 Temel Sayılar Teorisi Problemi</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Matematik</div>
+    <div class="quarto-category">Analiz</div>
+    <div class="quarto-category">Algoritmalar</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Verilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Yazar</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zafer Acar </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Yayınlanma Tarihi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">3 Şubat 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<section id="temel-sayılar-teorisi-problemi" class="level2">
-<h2 class="anchored" data-anchor-id="temel-sayılar-teorisi-problemi">250 Temel Sayılar Teorisi Problemi</h2>
-<p>Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için <a href="https://acarzfr.github.io/250problem/">buraya</a> tıklayınız.</p>
+</header>
+
+
+<p>Matematikte en sevdiğimiz oyunlardan biri “örüntüyü bul” oyunudur. Bir sayı dizisiyle karşılaştığımızda, beynimiz otomatik olarak bir sonraki sayıyı tahmin etmeye çalışır.</p>
+<p><span class="math display"> 2, 5, 10, 17, 26, \dots </span></p>
+<p>Bu diziye baktığınızda muhtemelen bir sonraki sayının <span class="math inline">\mathbf{37}</span> olduğunu hemen söylersiniz. Kuralın <span class="math inline">n^2+1</span> olduğunu fark etmek zor değil. Peki ya dizi daha karmaşık olsaydı? Ya ilk bakışta kuralı göremeseydik?</p>
+<p>Bu yazıda, bir dizinin kapalı formülünün polinom olup olmadığını anlamamıza ve eğer öyleyse bu formülü sistematik bir şekilde bulmamıza yarayan güçlü bir araçtan, <strong>Sonlu Farklar</strong> yönteminden bahsedeceğiz.</p>
+<section id="sonlu-farklar-nedir" class="level2">
+<h2 class="anchored" data-anchor-id="sonlu-farklar-nedir">Sonlu Farklar Nedir?</h2>
+<p>Bir <span class="math inline">(a_n)_{n \ge 0}</span> dizisi verildiğinde, bu dizinin terimleri arasındaki değişimi incelemek için <strong>birinci farklar dizisi</strong> <span class="math inline">(\Delta a_n)</span> şu şekilde tanımlanır:</p>
+<p><span class="math display"> \Delta a_n = a_{n+1} - a_n </span></p>
+<p>Bu işlem türev almaya benzer; ancak sürekli fonksiyonlar yerine ayrık dizilerle çalışırız. Eğer birinci farklar dizisinin de farklarını alırsak, <strong>ikinci farklar dizisini</strong> <span class="math inline">(\Delta^2 a_n)</span> elde ederiz. Bu işlemi tekrarlayarak dizinin karakteristiği hakkında derinlemesine bilgi edinebiliriz.</p>
+<div id="exm-n-kare" class="theorem example">
+<p><span class="theorem-title"><strong>Örnek 1</strong></span> <span class="math inline">a_n = n^2</span> dizisini (<span class="math inline">0, 1, 4, 9, 16, \dots</span>) ele alalım ve fark tablosunu oluşturalım:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 27%">
+<col style="width: 29%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><span class="math inline">n</span></th>
+<th><span class="math inline">a_n</span></th>
+<th><span class="math inline">\Delta a_n</span> (1. Fark)</th>
+<th><span class="math inline">\Delta^2 a_n</span> (2. Fark)</th>
+<th><span class="math inline">\Delta^3 a_n</span> (3. Fark)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">0</span></td>
+<td><span class="math inline">0</span></td>
+<td><span class="math inline">1</span></td>
+<td><span class="math inline">2</span></td>
+<td><span class="math inline">0</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">1</span></td>
+<td><span class="math inline">1</span></td>
+<td><span class="math inline">3</span></td>
+<td><span class="math inline">2</span></td>
+<td><span class="math inline">0</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">2</span></td>
+<td><span class="math inline">4</span></td>
+<td><span class="math inline">5</span></td>
+<td><span class="math inline">2</span></td>
+<td><span class="math inline">\dots</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">3</span></td>
+<td><span class="math inline">9</span></td>
+<td><span class="math inline">7</span></td>
+<td><span class="math inline">\dots</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">4</span></td>
+<td><span class="math inline">16</span></td>
+<td><span class="math inline">\dots</span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Bu tabloda dikkat çekici bir örüntü var:</p>
+<ol type="1">
+<li><p>Birinci farklar dizisi (<span class="math inline">1, 3, 5, 7, \dots</span>) tek sayılardan oluşuyor.</p></li>
+<li><p>İkinci farklar dizisi ise <strong>sabit bir dizi</strong> (<span class="math inline">2, 2, 2, \dots</span>) haline geliyor.</p></li>
+<li><p>Üçüncü ve sonraki farklar doğal olarak <span class="math inline">0</span> oluyor.</p></li>
+</ol>
+</div>
+</section>
+<section id="temel-teorem" class="level2">
+<h2 class="anchored" data-anchor-id="temel-teorem">Temel Teorem</h2>
+<p>Bu basit gözlem, <strong>Sonlu Farklar Hesabının Temel Teoremi</strong>’nin bir yansımasıdır:</p>
+<div id="thm-sonlu-farklar" class="theorem">
+<p><span class="theorem-title"><strong>Teorem 1</strong></span> Bir <span class="math inline">(a_n)</span> dizisi, ancak ve ancak <span class="math inline">\Delta^k a_n</span> dizisi (k-ıncı farklar) sıfırdan farklı bir sabit sayı dizisi ise, <span class="math inline">n</span>’ye bağlı <span class="math inline">k</span>-ıncı dereceden bir polinomdur.</p>
+</div>
+<p>Yani yukarıdaki örnekte ikinci farkların sabit çıkması, dizinin formülünün <span class="math inline">an^2 + bn + c</span> şeklinde, yani 2. dereceden (kuadratik) bir polinom olduğunu gösterir.</p>
+<ul>
+<li><p>Eğer <strong>1. farklar</strong> sabitse <span class="math inline">\rightarrow</span> Dizi <strong>lineerdir</strong> (Aritmetik dizi, <span class="math inline">an+b</span>).</p></li>
+<li><p>Eğer <strong>2. farklar</strong> sabitse <span class="math inline">\rightarrow</span> Dizi <strong>kuadratiktir</strong> (<span class="math inline">an^2+bn+c</span>).</p></li>
+<li><p>Eğer <strong>3. farklar</strong> sabitse <span class="math inline">\rightarrow</span> Dizi <strong>kübiktir</strong> (<span class="math inline">an^3+bn^2+cn+d</span>).</p></li>
+</ul>
+</section>
+<section id="formülü-nasıl-buluruz" class="level2">
+<h2 class="anchored" data-anchor-id="formülü-nasıl-buluruz">Formülü Nasıl Buluruz?</h2>
+<p>Bir dizinin polinom olduğunu tespit ettikten sonra (farkların sabitlendiği noktayı bularak), genel terim <span class="math inline">a_n</span>’i bulmak için <strong>Newton’un İleri Farklar Formülü</strong>’nü kullanabiliriz. Eğer dizimiz <span class="math inline">a_0</span> terimiyle başlıyorsa formül şöyledir:</p>
+<p><span class="math display"> a_n = \sum_{i=0}^k \Delta^i a_0 \binom{n}{i} </span></p>
+<p>Burada <span class="math inline">\Delta^i a_0</span>, oluşturduğumuz fark tablosunun <strong>ilk satırındaki (köşegenindeki)</strong> sayıları temsil eder.</p>
+<p>Az önceki kare sayılar örneğine (<span class="math inline">0, 1, 4, 9, \dots</span>) geri dönelim ve ilk satır elemanlarına bakalım:</p>
+<ul>
+<li><p><span class="math inline">a_0 = 0</span> (Dizinin ilk terimi)</p></li>
+<li><p><span class="math inline">\Delta a_0 = 1</span> (1. farkların ilk terimi)</p></li>
+<li><p><span class="math inline">\Delta^2 a_0 = 2</span> (2. farkların ilk terimi)</p></li>
+</ul>
+<p>Bu değerleri formülde yerine koyalım:</p>
+<p><span class="math display"> a_n = 0 \cdot \binom{n}{0} + 1 \cdot \binom{n}{1} + 2 \cdot \binom{n}{2} </span></p>
+<p>Binom katsayılarını <span class="math inline">\left(\binom{n}{1} = n, \binom{n}{2} = \frac{n(n-1)}{2}\right)</span> açarsak:</p>
+<p><span class="math display">\begin{align*}
+a_n &amp;= n + 2 \cdot \frac{n^2 - n}{2} \\
+a_n &amp;= n + (n^2 - n) \\
+a_n &amp;= n^2
+\end{align*}</span></p>
+<p>Ve işte! Sadece farklar tablosunun ilk elemanlarını kullanarak dizinin kapalı formülünü elde ettik. Bu yöntem, sadece basit dizilerde değil, karmaşık katsayılara sahip yüksek dereceli polinom dizilerinde de kusursuz çalışır.</p>
+</section>
+<section id="her-dizi-bir-polinom-mudur" class="level2">
+<h2 class="anchored" data-anchor-id="her-dizi-bir-polinom-mudur">Her Dizi Bir Polinom mudur?</h2>
+<p>Hayır. Örneğin geometrik diziler (<span class="math inline">1, 2, 4, 8, 16, \dots</span>) kaç kez fark alırsanız alın asla sabitlenmezler; aksine kendilerini tekrar ederler (veya katlanarak büyürler).</p>
+<ul>
+<li>Dizi: <span class="math inline">1, 2, 4, 8, 16, \dots</span></li>
+<li><span class="math inline">\Delta</span>: <span class="math inline">1, 2, 4, 8, \dots</span> (Yine kendisi!)</li>
+</ul>
+<p>Eğer fark alma işlemi bir döngüye giriyorsa veya farklar gittikçe büyüyorsa, dizinizin genel terimi muhtemelen polinomik değil, <strong>üstel</strong> bir fonksiyondur (<span class="math inline">a_n = r^n</span> gibi).</p>
+</section>
+<section id="sonuç" class="level2">
+<h2 class="anchored" data-anchor-id="sonuç">Sonuç</h2>
+<p>Matematiksel analizde dizilerin davranışını anlamak, hem teorik matematikte hem de algoritma analizinde kritiktir. Sonlu farklar yöntemi, karmaşık sayı dizilerinin arkasındaki düzeni görmek ve onları öngörülebilir formüllere dönüştürmek için harika bir araçtır.</p>
+<p>Bir dahaki sefere bir IQ testinde, bir bulmacada veya algoritmik bir problemde “sırada ne var?” sorusuyla karşılaştığınızda, hemen farkları almayı deneyin. Çözüm, o sayıların arasındaki basit farklarda gizli olabilir.</p>
+
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Başa dön</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Başa dön</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referanslar</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-levin" class="csl-entry" role="listitem">
+Levin, Oscar. 2025. <span>“Discrete Mathematics: An Open Introduction”</span>. Lisans: CC BY-NC-SA 4.0, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="uri">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>. 2025. <a href="https://discrete.openmathbooks.org/dmoi4/dmoi4.html">https://discrete.openmathbooks.org/dmoi4/dmoi4.html</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -759,6 +962,38 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light_tritanopia">
+<input type="hidden" id="giscus-alt-theme" value="dark_tritanopia">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "acarzfr/acarzfr.github.io";
+    script.dataset.repoId = "R_kgDOQROreg";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOQROres4Cxiyp";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "tr";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -7,6 +7,48 @@
     "text": "Matematiğin dünyasına açılan kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.\n\n\n\n Başa dön"
   },
   {
+    "objectID": "posts/polinom-dizileri/index.html",
+    "href": "posts/polinom-dizileri/index.html",
+    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
+    "section": "",
+    "text": "Matematikte en sevdiğimiz oyunlardan biri “örüntüyü bul” oyunudur. Bir sayı dizisiyle karşılaştığımızda, beynimiz otomatik olarak bir sonraki sayıyı tahmin etmeye çalışır.\n2, 5, 10, 17, 26, \\dots\nBu diziye baktığınızda muhtemelen bir sonraki sayının \\mathbf{37} olduğunu hemen söylersiniz. Kuralın n^2+1 olduğunu fark etmek zor değil. Peki ya dizi daha karmaşık olsaydı? Ya ilk bakışta kuralı göremeseydik?\nBu yazıda, bir dizinin kapalı formülünün polinom olup olmadığını anlamamıza ve eğer öyleyse bu formülü sistematik bir şekilde bulmamıza yarayan güçlü bir araçtan, Sonlu Farklar yönteminden bahsedeceğiz."
+  },
+  {
+    "objectID": "posts/polinom-dizileri/index.html#sonlu-farklar-nedir",
+    "href": "posts/polinom-dizileri/index.html#sonlu-farklar-nedir",
+    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
+    "section": "Sonlu Farklar Nedir?",
+    "text": "Sonlu Farklar Nedir?\nBir (a_n)_{n \\ge 0} dizisi verildiğinde, bu dizinin terimleri arasındaki değişimi incelemek için birinci farklar dizisi (\\Delta a_n) şu şekilde tanımlanır:\n \\Delta a_n = a_{n+1} - a_n \nBu işlem türev almaya benzer; ancak sürekli fonksiyonlar yerine ayrık dizilerle çalışırız. Eğer birinci farklar dizisinin de farklarını alırsak, ikinci farklar dizisini (\\Delta^2 a_n) elde ederiz. Bu işlemi tekrarlayarak dizinin karakteristiği hakkında derinlemesine bilgi edinebiliriz.\n\nÖrnek 1 a_n = n^2 dizisini (0, 1, 4, 9, 16, \\dots) ele alalım ve fark tablosunu oluşturalım:\n\n\n\n\n\n\n\n\n\n\nn\na_n\n\\Delta a_n (1. Fark)\n\\Delta^2 a_n (2. Fark)\n\\Delta^3 a_n (3. Fark)\n\n\n\n\n0\n0\n1\n2\n0\n\n\n1\n1\n3\n2\n0\n\n\n2\n4\n5\n2\n\\dots\n\n\n3\n9\n7\n\\dots\n\n\n\n4\n16\n\\dots\n\n\n\n\n\nBu tabloda dikkat çekici bir örüntü var:\n\nBirinci farklar dizisi (1, 3, 5, 7, \\dots) tek sayılardan oluşuyor.\nİkinci farklar dizisi ise sabit bir dizi (2, 2, 2, \\dots) haline geliyor.\nÜçüncü ve sonraki farklar doğal olarak 0 oluyor."
+  },
+  {
+    "objectID": "posts/polinom-dizileri/index.html#temel-teorem",
+    "href": "posts/polinom-dizileri/index.html#temel-teorem",
+    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
+    "section": "Temel Teorem",
+    "text": "Temel Teorem\nBu basit gözlem, Sonlu Farklar Hesabının Temel Teoremi’nin bir yansımasıdır:\n\nTeorem 1 Bir (a_n) dizisi, ancak ve ancak \\Delta^k a_n dizisi (k-ıncı farklar) sıfırdan farklı bir sabit sayı dizisi ise, n’ye bağlı k-ıncı dereceden bir polinomdur.\n\nYani yukarıdaki örnekte ikinci farkların sabit çıkması, dizinin formülünün an^2 + bn + c şeklinde, yani 2. dereceden (kuadratik) bir polinom olduğunu gösterir.\n\nEğer 1. farklar sabitse \\rightarrow Dizi lineerdir (Aritmetik dizi, an+b).\nEğer 2. farklar sabitse \\rightarrow Dizi kuadratiktir (an^2+bn+c).\nEğer 3. farklar sabitse \\rightarrow Dizi kübiktir (an^3+bn^2+cn+d)."
+  },
+  {
+    "objectID": "posts/polinom-dizileri/index.html#formülü-nasıl-buluruz",
+    "href": "posts/polinom-dizileri/index.html#formülü-nasıl-buluruz",
+    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
+    "section": "Formülü Nasıl Buluruz?",
+    "text": "Formülü Nasıl Buluruz?\nBir dizinin polinom olduğunu tespit ettikten sonra (farkların sabitlendiği noktayı bularak), genel terim a_n’i bulmak için Newton’un İleri Farklar Formülü’nü kullanabiliriz. Eğer dizimiz a_0 terimiyle başlıyorsa formül şöyledir:\n a_n = \\sum_{i=0}^k \\Delta^i a_0 \\binom{n}{i} \nBurada \\Delta^i a_0, oluşturduğumuz fark tablosunun ilk satırındaki (köşegenindeki) sayıları temsil eder.\nAz önceki kare sayılar örneğine (0, 1, 4, 9, \\dots) geri dönelim ve ilk satır elemanlarına bakalım:\n\na_0 = 0 (Dizinin ilk terimi)\n\\Delta a_0 = 1 (1. farkların ilk terimi)\n\\Delta^2 a_0 = 2 (2. farkların ilk terimi)\n\nBu değerleri formülde yerine koyalım:\n a_n = 0 \\cdot \\binom{n}{0} + 1 \\cdot \\binom{n}{1} + 2 \\cdot \\binom{n}{2} \nBinom katsayılarını \\left(\\binom{n}{1} = n, \\binom{n}{2} = \\frac{n(n-1)}{2}\\right) açarsak:\n\\begin{align*}\na_n &= n + 2 \\cdot \\frac{n^2 - n}{2} \\\\\na_n &= n + (n^2 - n) \\\\\na_n &= n^2\n\\end{align*}\nVe işte! Sadece farklar tablosunun ilk elemanlarını kullanarak dizinin kapalı formülünü elde ettik. Bu yöntem, sadece basit dizilerde değil, karmaşık katsayılara sahip yüksek dereceli polinom dizilerinde de kusursuz çalışır."
+  },
+  {
+    "objectID": "posts/polinom-dizileri/index.html#her-dizi-bir-polinom-mudur",
+    "href": "posts/polinom-dizileri/index.html#her-dizi-bir-polinom-mudur",
+    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
+    "section": "Her Dizi Bir Polinom mudur?",
+    "text": "Her Dizi Bir Polinom mudur?\nHayır. Örneğin geometrik diziler (1, 2, 4, 8, 16, \\dots) kaç kez fark alırsanız alın asla sabitlenmezler; aksine kendilerini tekrar ederler (veya katlanarak büyürler).\n\nDizi: 1, 2, 4, 8, 16, \\dots\n\\Delta: 1, 2, 4, 8, \\dots (Yine kendisi!)\n\nEğer fark alma işlemi bir döngüye giriyorsa veya farklar gittikçe büyüyorsa, dizinizin genel terimi muhtemelen polinomik değil, üstel bir fonksiyondur (a_n = r^n gibi)."
+  },
+  {
+    "objectID": "posts/polinom-dizileri/index.html#sonuç",
+    "href": "posts/polinom-dizileri/index.html#sonuç",
+    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
+    "section": "Sonuç",
+    "text": "Sonuç\nMatematiksel analizde dizilerin davranışını anlamak, hem teorik matematikte hem de algoritma analizinde kritiktir. Sonlu farklar yöntemi, karmaşık sayı dizilerinin arkasındaki düzeni görmek ve onları öngörülebilir formüllere dönüştürmek için harika bir araçtır.\nBir dahaki sefere bir IQ testinde, bir bulmacada veya algoritmik bir problemde “sırada ne var?” sorusuyla karşılaştığınızda, hemen farkları almayı deneyin. Çözüm, o sayıların arasındaki basit farklarda gizli olabilir."
+  },
+  {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Kitaplar",
@@ -21,10 +63,94 @@
     "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
   },
   {
+    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html",
+    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "",
+    "text": "Yirminci yüzyılın başından beri matematiğin kalbi, bir ifadenin doğru mu yanlış mı olduğuna dair titiz ve mantıksal bir argüman olan kanıt olmuştur. Matematikçilerin kariyerleri, hangi teoremleri kanıtlayabildikleriyle ölçülür. En iyi kanıtlar sadece titiz değil, aynı zamanda zarif, yaratıcı ve güzeldir; adeta birer sanat eseridirler. Entelektüel zekanın zirvesi olarak görülen bu aktivite, derinlemesine “insani” hissettirir.\nAncak yapay zeka bu tabloyu kökten değiştiriyor. Google DeepMind’ın IMO (Uluslararası Matematik Olimpiyatı) seviyesindeki problemleri çözebilen sistemlerinden, Terence Tao’nun kitle kaynaklı dev projelerine kadar uzanan gelişmelerle, matematik yapma biçimimiz geri döndürülemez bir dönüşümün eşiğinde."
+  },
+  {
+    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
+    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya",
+    "text": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya\nBu dönüşüm tarihte ilk değil. Sokrates, yazının icadının hafızayı körelteceğinden korkmuştu. 17. yüzyılda René Descartes, geometrik şekilleri cebirsel denklemlere dönüştüren analitik geometriyi (Kartezyen koordinatlar) tanıttığında da benzer bir rahatsızlık yaşandı.\nIsaac Newton gibi bazı matematikçiler, bu cebirsel yöntemlerin “mide bulandırıcı derecede sıkıcı ve karmaşık” olduğunu ve geometrik sezgiyi öldürdüğünü savundu. Onlara göre, x’ler ve y’ler ile boğuşmak, ne yaptığınızı anlamadan işlem yapmaktı (“plug and chug”). Ancak bu soyutlama, kalkülüsün ve modern matematiğin kapılarını araladı. O zamanlar “kabul edilemez bir soyutlama” olarak görülen şey, bugün vazgeçilmez bir “matematiksel makine” (mathematical machinery) haline geldi.\nBugün yapay zeka, 17. yüzyıldaki cebirin rolünü üstleniyor. Birkaç yıl içinde, matematikçiler kanıtların sıkıcı kısımlarını —“nitty-gritty” detayları, lemmaları ve rutin doğrulamaları— yapay zekaya devredebilir."
+  },
+  {
+    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
+    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Somut Başarılar: DeepMind ve IMO Zaferi",
+    "text": "Somut Başarılar: DeepMind ve IMO Zaferi\nBu değişim artık sadece felsefi bir tartışma değil. 2024 yılında Google DeepMind, geliştirdiği AlphaProof ve AlphaGeometry sistemlerinin Uluslararası Matematik Olimpiyatı’nda (IMO) gümüş madalya seviyesinde puan aldığını duyurdu. Lise seviyesindeki en parlak zihinlerin yarıştığı, derin yaratıcılık gerektiren bu platformda bir makinenin başarılı olması, “yaratıcılık gerektiren işlerin otomatize edilemeyeceği” inancını sarstı.\nMontreal Üniversitesi’nden Andrew Granville gibi, bu teknolojinin etkisine şüpheyle yaklaşan matematikçiler bile durumu kabul noktasına geldi: “Sınırların nerede olduğuna dair düşüncelerimi tamamen yıktılar. Cin şişeden çıktı.”"
+  },
+  {
+    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
+    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama",
+    "text": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama\nGeleneksel bir matematikçi hem mimar hem de inşaat işçisidir. Kanıtın büyük tasarımını (mimariyi) kafasında kurar, ancak sonra her bir tuğlayı (lemmayı) tek tek yerine koymak, her çiviyi (mantıksal adımı) kendisi çakmak zorundadır.\nYapay zeka ve Lean gibi “kanıt asistanı” (proof assistant) sistemleri sayesinde bu değişiyor. Imperial College London’dan Heather Macbeth’in çalışmalarında gösterdiği gibi, kanıtın “hesaplama” kısımları makinelere devredilebilir. Matematikçinin görevi, ispatın her bir vidasını sıkmak değil, “taktik” adı verilen üst düzey komutlarla stratejiyi belirlemek haline geliyor.\nBu durum, matematikte bir kültür değişimini de beraberinde getiriyor: Kağıt üzerindeki titizlikten (rigor on paper) zihindeki titizliğe (rigor in head) geçiş. Toronto Üniversitesi’nden Daniel Litt’in dediği gibi: “Bir şeyi bütünsel anlamda anlayacağım, ancak tüm detaylarına hakim olmayacağım.” Bu, detaylara takıntılı olmasıyla bilinen matematikçiler için hem korkutucu hem de özgürleştirici bir devrim."
+  },
+  {
+    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
+    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği",
+    "text": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği\nBu yeni dönem, matematiği “laboratuvar bilimlerine” yaklaştırıyor. Parçacık fiziğinde (örneğin Higgs bozonunun keşfi) makalelerin binlerce yazarı vardır; hiç kimse projenin tüm detaylarına tek başına hakim değildir.\nDünyanın yaşayan en büyük matematikçilerinden Terence Tao, bu modelin öncülüğünü yapıyor. Tao, 2024 sonbaharında Denklemsel Teoriler Projesi adında devrim niteliğinde bir girişim başlattı. Proje, “magma” adı verilen matematiksel yapılardaki 22 milyon potansiyel mantıksal ilişkiyi incelemeyi hedefliyordu.\nTek bir kişinin ömrü buna yetmezdi. Ancak Tao, yapay zeka araçlarını ve kitle kaynaklı (crowdsourced) bir insan topluluğunu birleştirdi. AI modelleri milyonlarca durumu tarayıp bir “harita” çıkardı, insanlar ise bu haritadaki boşlukları doldurdu. Sonuçta proje aylar içinde tamamlandı.\nTao’nun vizyonu şudur: “Gelecekte bir matematik alanını keşfederken, önce bir yapay zekaya milyonlarca problemi taratıp bize bir manzara (landscape) sunmasını isteyeceğiz. Bu biz ‘daha sofistike’ insanları, enerjimizi nereye harcamamız gerektiği konusunda yönlendirecek.”"
+  },
+  {
+    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
+    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Matematiğin Sonu mu, Yeni Bir Form mu?",
+    "text": "Matematiğin Sonu mu, Yeni Bir Form mu?\nEğer makineler kanıtları yapabiliyorsa, matematikçilere ne kalacak? Harvard’dan Mark Kisin, matematik bölümlerinin gelecekte İngiliz Edebiyatı bölümlerine benzeyebileceğini söylüyor: Edebiyat profesörleri genellikle roman yazmaz, romanları eleştirir ve analiz eder. Matematikçiler de yapay zekanın ürettiği kanıtları inceleyen, yorumlayan ve öğreten “eleştirmenler” veya farklı AI araçlarını yöneten “orkestra şefleri” olabilir.\nDaniel Litt’in dürüstçe itiraf ettiği gibi: “Kişisel egom için bir darbe olur ama çok da üzülmem. Eğer bir dil modeli Riemann Hipotezi’ni kanıtlayıp bana açıklayabiliyorsa, bunu öğrenmekten mutluluk duyarım. Sonuçta matematikte asıl amacım neyin doğru olduğunu ve neden doğru olduğunu anlamak.”\nMatematik bitmiyor, sadece şekil değiştiriyor. Tıpkı geometriden cebire geçerken olduğu gibi, yeni araçlar bizi daha soyut, daha derin ve muhtemelen daha güzel hakikatlere taşıyacak."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zafer Acar",
     "section": "",
-    "text": "Eşleşen öğe yok\n Başa dön"
+    "text": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası\n\n\n\nMatematik\n\nAnaliz\n\nAlgoritmalar\n\n\n\nVerilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.\n\n\n\n\n\n3 Şub 2026\n\n\nZafer Acar\n\n\n\n\n\n\n\n\n\n\n\n\nYapay Zeka Çağında Matematiğin Geleceği\n\n\n\nYapay Zeka\n\nMatematik Felsefesi\n\nGelecek\n\n\n\nMatematikçilerin rolü, inşaat işçiliğinden mimarlığa mı evriliyor? Descartes’tan DeepMind’a, Newton’dan Terence Tao’ya; matematiksel hakikatin ve güzellik algısının büyük dönüşümü.\n\n\n\n\n\n3 Şub 2026\n\n\nZafer Acar\n\n\n\n\n\nEşleşen öğe yok\n Başa dön"
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html",
+    "href": "posts/yz-matematik/index.html",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "",
+    "text": "Yirminci yüzyılın başından beri matematiğin kalbi, bir ifadenin doğru mu yanlış mı olduğuna dair titiz ve mantıksal bir argüman olan kanıt olmuştur. Matematikçilerin kariyerleri, hangi teoremleri kanıtlayabildikleriyle ölçülür. En iyi kanıtlar sadece titiz değil, aynı zamanda zarif, yaratıcı ve güzeldir; adeta birer sanat eseridirler. Entelektüel zekanın zirvesi olarak görülen bu aktivite, derinlemesine “insani” hissettirir.\nAncak yapay zeka bu tabloyu kökten değiştiriyor. Google DeepMind’ın IMO (Uluslararası Matematik Olimpiyatı) seviyesindeki problemleri çözebilen sistemlerinden, Terence Tao’nun kitle kaynaklı dev projelerine kadar uzanan gelişmelerle, matematik yapma biçimimiz geri döndürülemez bir dönüşümün eşiğinde."
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
+    "href": "posts/yz-matematik/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya",
+    "text": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya\nBu dönüşüm tarihte ilk değil. Sokrates, yazının icadının hafızayı körelteceğinden korkmuştu. 17. yüzyılda René Descartes, geometrik şekilleri cebirsel denklemlere dönüştüren analitik geometriyi tanıttığında da benzer bir rahatsızlık yaşandı.\nNewton gibi bazı matematikçiler, bu cebirsel yöntemlerin “mide bulandırıcı derecede sıkıcı ve karmaşık” olduğunu ve geometrik sezgiyi öldürdüğünü savundu. Onlara göre, x’ler ve y’ler ile boğuşmak, ne yaptığınızı anlamadan işlem yapmaktı. Ancak bu soyutlama, kalkülüsün ve modern matematiğin kapılarını araladı. O zamanlar “kabul edilemez bir soyutlama” olarak görülen şey, bugün vazgeçilmez bir “matematiksel makine” haline geldi.\nBugün yapay zeka, 17. yüzyıldaki cebirin rolünü üstleniyor. Birkaç yıl içinde, matematikçiler kanıtların sıkıcı kısımlarını yapay zekaya devredebilir."
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
+    "href": "posts/yz-matematik/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Somut Başarılar: DeepMind ve IMO Zaferi",
+    "text": "Somut Başarılar: DeepMind ve IMO Zaferi\nBu değişim artık sadece felsefi bir tartışma değil. 2024 yılında Google DeepMind, geliştirdiği AlphaProof ve AlphaGeometry sistemlerinin Uluslararası Matematik Olimpiyatı’nda (IMO) gümüş madalya seviyesinde puan aldığını duyurdu. Lise seviyesindeki en parlak zihinlerin yarıştığı, derin yaratıcılık gerektiren bu platformda bir makinenin başarılı olması, “yaratıcılık gerektiren işlerin otomatize edilemeyeceği” inancını sarstı.\nMontreal Üniversitesi’nden Andrew Granville gibi, bu teknolojinin etkisine şüpheyle yaklaşan matematikçiler bile durumu kabul noktasına geldi: “Sınırların nerede olduğuna dair düşüncelerimi tamamen yıktılar. Cin şişeden çıktı.”"
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
+    "href": "posts/yz-matematik/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama",
+    "text": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama\nGeleneksel bir matematikçi hem mimar hem de inşaat işçisidir. Kanıtın büyük tasarımını (mimariyi) kafasında kurar, ancak sonra her bir tuğlayı (lemmayı) tek tek yerine koymak, her çiviyi (mantıksal adımı) kendisi çakmak zorundadır.\nYapay zeka ve Lean gibi “kanıt asistanı” sistemleri sayesinde bu değişiyor. Imperial College London’dan Heather Macbeth’in çalışmalarında gösterdiği gibi, kanıtın “hesaplama” kısımları makinelere devredilebilir. Matematikçinin görevi, ispatın her bir vidasını sıkmak değil, “taktik” adı verilen üst düzey komutlarla stratejiyi belirlemek haline geliyor.\nBu durum, matematikte bir kültür değişimini de beraberinde getiriyor: Kağıt üzerindeki titizlikten zihindeki titizliğe geçiş. Toronto Üniversitesi’nden Daniel Litt’in dediği gibi: “Bir şeyi bütünsel anlamda anlayacağım, ancak tüm detaylarına hakim olmayacağım.” Bu, detaylara takıntılı olmasıyla bilinen matematikçiler için hem korkutucu hem de özgürleştirici bir devrim."
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
+    "href": "posts/yz-matematik/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği",
+    "text": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği\nBu yeni dönem, matematiği “laboratuvar bilimlerine” yaklaştırıyor. Parçacık fiziğinde (örneğin Higgs bozonunun keşfi) makalelerin binlerce yazarı vardır; hiç kimse projenin tüm detaylarına tek başına hakim değildir.\nDünyanın yaşayan en büyük matematikçilerinden Terence Tao, bu modelin öncülüğünü yapıyor. Tao, 2024 sonbaharında Denklemsel Teoriler Projesi adında devrim niteliğinde bir girişim başlattı. Proje, “magma” adı verilen matematiksel yapılardaki 22 milyon potansiyel mantıksal ilişkiyi incelemeyi hedefliyordu.\nTek bir kişinin ömrü buna yetmezdi. Ancak Tao, yapay zeka araçlarını ve bir insan topluluğunu birleştirdi. AI modelleri milyonlarca durumu tarayıp bir “harita” çıkardı, insanlar ise bu haritadaki boşlukları doldurdu. Sonuçta proje aylar içinde tamamlandı.\nTao’nun vizyonu şudur: “Gelecekte bir matematik alanını keşfederken, önce bir yapay zekaya milyonlarca problemi taratıp bize bir manzara sunmasını isteyeceğiz. Bu biz ‘daha sofistike’ insanları, enerjimizi nereye harcamamız gerektiği konusunda yönlendirecek.”"
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
+    "href": "posts/yz-matematik/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Matematiğin Sonu mu, Yeni Bir Form mu?",
+    "text": "Matematiğin Sonu mu, Yeni Bir Form mu?\nEğer makineler kanıtları yapabiliyorsa, matematikçilere ne kalacak? Harvard’dan Mark Kisin, matematik bölümlerinin gelecekte İngiliz Edebiyatı bölümlerine benzeyebileceğini söylüyor: Edebiyat profesörleri genellikle roman yazmaz, romanları eleştirir ve analiz eder. Matematikçiler de yapay zekanın ürettiği kanıtları inceleyen, yorumlayan ve öğreten “eleştirmenler” veya farklı AI araçlarını yöneten “orkestra şefleri” olabilir.\nDaniel Litt’in dürüstçe itiraf ettiği gibi: “Kişisel egom için bir darbe olur ama çok da üzülmem. Eğer bir dil modeli Riemann Hipotezi’ni kanıtlayıp bana açıklayabiliyorsa, bunu öğrenmekten mutluluk duyarım. Sonuçta matematikte asıl amacım neyin doğru olduğunu ve neden doğru olduğunu anlamak.”\nMatematik bitmiyor, sadece şekil değiştiriyor. Tıpkı geometriden cebire geçerken olduğu gibi, yeni araçlar bizi daha soyut, daha derin ve muhtemelen daha güzel hakikatlere taşıyacak."
   }
 ]
