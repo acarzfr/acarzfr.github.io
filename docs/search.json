@@ -4,7 +4,63 @@
     "href": "about.html",
     "title": "Zafer Acar",
     "section": "",
-    "text": "Matematiğin dünyasına açılan kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.\n\n\n\n Başa dön"
+    "text": "Kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.\n\n\n\n Başa dön"
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html",
+    "href": "posts/yz-matematik/index.html",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "",
+    "text": "Yirminci yüzyılın başından beri matematiğin kalbi, bir ifadenin doğru mu yanlış mı olduğuna dair titiz ve mantıksal bir argüman olan kanıt olmuştur. Matematikçilerin kariyerleri, hangi teoremleri kanıtlayabildikleriyle ölçülür. En iyi kanıtlar sadece titiz değil, aynı zamanda zarif, yaratıcı ve güzeldir; adeta birer sanat eseridirler. Entelektüel zekanın zirvesi olarak görülen bu aktivite, derinlemesine “insani” hissettirir.\nAncak yapay zeka bu tabloyu kökten değiştiriyor. Google DeepMind’ın IMO (Uluslararası Matematik Olimpiyatı) seviyesindeki problemleri çözebilen sistemlerinden, Terence Tao’nun kitle kaynaklı dev projelerine kadar uzanan gelişmelerle, matematik yapma biçimimiz geri döndürülemez bir dönüşümün eşiğinde."
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
+    "href": "posts/yz-matematik/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya",
+    "text": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya\nBu dönüşüm tarihte ilk değil. Sokrates, yazının icadının hafızayı körelteceğinden korkmuştu. 17. yüzyılda René Descartes, geometrik şekilleri cebirsel denklemlere dönüştüren analitik geometriyi tanıttığında da benzer bir rahatsızlık yaşandı.\nNewton gibi bazı matematikçiler, bu cebirsel yöntemlerin “mide bulandırıcı derecede sıkıcı ve karmaşık” olduğunu ve geometrik sezgiyi öldürdüğünü savundu. Onlara göre, x’ler ve y’ler ile boğuşmak, ne yaptığınızı anlamadan işlem yapmaktı. Ancak bu soyutlama, kalkülüsün ve modern matematiğin kapılarını araladı. O zamanlar “kabul edilemez bir soyutlama” olarak görülen şey, bugün vazgeçilmez bir “matematiksel makine” haline geldi.\nBugün yapay zeka, 17. yüzyıldaki cebirin rolünü üstleniyor. Birkaç yıl içinde, matematikçiler kanıtların sıkıcı kısımlarını yapay zekaya devredebilir."
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
+    "href": "posts/yz-matematik/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Somut Başarılar: DeepMind ve IMO Zaferi",
+    "text": "Somut Başarılar: DeepMind ve IMO Zaferi\nBu değişim artık sadece felsefi bir tartışma değil. 2024 yılında Google DeepMind, geliştirdiği AlphaProof ve AlphaGeometry sistemlerinin Uluslararası Matematik Olimpiyatı’nda (IMO) gümüş madalya seviyesinde puan aldığını duyurdu. Lise seviyesindeki en parlak zihinlerin yarıştığı, derin yaratıcılık gerektiren bu platformda bir makinenin başarılı olması, “yaratıcılık gerektiren işlerin otomatize edilemeyeceği” inancını sarstı.\nMontreal Üniversitesi’nden Andrew Granville gibi, bu teknolojinin etkisine şüpheyle yaklaşan matematikçiler bile durumu kabul noktasına geldi: “Sınırların nerede olduğuna dair düşüncelerimi tamamen yıktılar. Cin şişeden çıktı.”"
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
+    "href": "posts/yz-matematik/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama",
+    "text": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama\nGeleneksel bir matematikçi hem mimar hem de inşaat işçisidir. Kanıtın büyük tasarımını (mimariyi) kafasında kurar, ancak sonra her bir tuğlayı (lemmayı) tek tek yerine koymak, her çiviyi (mantıksal adımı) kendisi çakmak zorundadır.\nYapay zeka ve Lean gibi “kanıt asistanı” sistemleri sayesinde bu değişiyor. Imperial College London’dan Heather Macbeth’in çalışmalarında gösterdiği gibi, kanıtın “hesaplama” kısımları makinelere devredilebilir. Matematikçinin görevi, ispatın her bir vidasını sıkmak değil, “taktik” adı verilen üst düzey komutlarla stratejiyi belirlemek haline geliyor.\nBu durum, matematikte bir kültür değişimini de beraberinde getiriyor: Kağıt üzerindeki titizlikten zihindeki titizliğe geçiş. Toronto Üniversitesi’nden Daniel Litt’in dediği gibi: “Bir şeyi bütünsel anlamda anlayacağım, ancak tüm detaylarına hakim olmayacağım.” Bu, detaylara takıntılı olmasıyla bilinen matematikçiler için hem korkutucu hem de özgürleştirici bir devrim."
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
+    "href": "posts/yz-matematik/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği",
+    "text": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği\nBu yeni dönem, matematiği “laboratuvar bilimlerine” yaklaştırıyor. Parçacık fiziğinde (örneğin Higgs bozonunun keşfi) makalelerin binlerce yazarı vardır; hiç kimse projenin tüm detaylarına tek başına hakim değildir.\nDünyanın yaşayan en büyük matematikçilerinden Terence Tao, bu modelin öncülüğünü yapıyor. Tao, 2024 sonbaharında Denklemsel Teoriler Projesi adında devrim niteliğinde bir girişim başlattı. Proje, “magma” adı verilen matematiksel yapılardaki 22 milyon potansiyel mantıksal ilişkiyi incelemeyi hedefliyordu.\nTek bir kişinin ömrü buna yetmezdi. Ancak Tao, yapay zeka araçlarını ve bir insan topluluğunu birleştirdi. AI modelleri milyonlarca durumu tarayıp bir “harita” çıkardı, insanlar ise bu haritadaki boşlukları doldurdu. Sonuçta proje aylar içinde tamamlandı.\nTao’nun vizyonu şudur: “Gelecekte bir matematik alanını keşfederken, önce bir yapay zekaya milyonlarca problemi taratıp bize bir manzara sunmasını isteyeceğiz. Bu biz ‘daha sofistike’ insanları, enerjimizi nereye harcamamız gerektiği konusunda yönlendirecek.”"
+  },
+  {
+    "objectID": "posts/yz-matematik/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
+    "href": "posts/yz-matematik/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
+    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
+    "section": "Matematiğin Sonu mu, Yeni Bir Form mu?",
+    "text": "Matematiğin Sonu mu, Yeni Bir Form mu?\nEğer makineler kanıtları yapabiliyorsa, matematikçilere ne kalacak? Harvard’dan Mark Kisin, matematik bölümlerinin gelecekte İngiliz Edebiyatı bölümlerine benzeyebileceğini söylüyor: Edebiyat profesörleri genellikle roman yazmaz, romanları eleştirir ve analiz eder. Matematikçiler de yapay zekanın ürettiği kanıtları inceleyen, yorumlayan ve öğreten “eleştirmenler” veya farklı AI araçlarını yöneten “orkestra şefleri” olabilir.\nDaniel Litt’in dürüstçe itiraf ettiği gibi: “Kişisel egom için bir darbe olur ama çok da üzülmem. Eğer bir dil modeli Riemann Hipotezi’ni kanıtlayıp bana açıklayabiliyorsa, bunu öğrenmekten mutluluk duyarım. Sonuçta matematikte asıl amacım neyin doğru olduğunu ve neden doğru olduğunu anlamak.”\nMatematik bitmiyor, sadece şekil değiştiriyor. Tıpkı geometriden cebire geçerken olduğu gibi, yeni araçlar bizi daha soyut, daha derin ve muhtemelen daha güzel hakikatlere taşıyacak."
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Kitaplar",
+    "section": "",
+    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
+  },
+  {
+    "objectID": "books.html#temel-sayılar-teorisi-problemi",
+    "href": "books.html#temel-sayılar-teorisi-problemi",
+    "title": "Kitaplar",
+    "section": "",
+    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
   },
   {
     "objectID": "posts/polinom-dizileri/index.html",
@@ -49,108 +105,10 @@
     "text": "Sonuç\nMatematiksel analizde dizilerin davranışını anlamak, hem teorik matematikte hem de algoritma analizinde kritiktir. Sonlu farklar yöntemi, karmaşık sayı dizilerinin arkasındaki düzeni görmek ve onları öngörülebilir formüllere dönüştürmek için harika bir araçtır.\nBir dahaki sefere bir IQ testinde, bir bulmacada veya algoritmik bir problemde “sırada ne var?” sorusuyla karşılaştığınızda, hemen farkları almayı deneyin. Çözüm, o sayıların arasındaki basit farklarda gizli olabilir."
   },
   {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Kitaplar",
-    "section": "",
-    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
-  },
-  {
-    "objectID": "books.html#temel-sayılar-teorisi-problemi",
-    "href": "books.html#temel-sayılar-teorisi-problemi",
-    "title": "Kitaplar",
-    "section": "",
-    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
-  },
-  {
-    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html",
-    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "",
-    "text": "Yirminci yüzyılın başından beri matematiğin kalbi, bir ifadenin doğru mu yanlış mı olduğuna dair titiz ve mantıksal bir argüman olan kanıt olmuştur. Matematikçilerin kariyerleri, hangi teoremleri kanıtlayabildikleriyle ölçülür. En iyi kanıtlar sadece titiz değil, aynı zamanda zarif, yaratıcı ve güzeldir; adeta birer sanat eseridirler. Entelektüel zekanın zirvesi olarak görülen bu aktivite, derinlemesine “insani” hissettirir.\nAncak yapay zeka bu tabloyu kökten değiştiriyor. Google DeepMind’ın IMO (Uluslararası Matematik Olimpiyatı) seviyesindeki problemleri çözebilen sistemlerinden, Terence Tao’nun kitle kaynaklı dev projelerine kadar uzanan gelişmelerle, matematik yapma biçimimiz geri döndürülemez bir dönüşümün eşiğinde."
-  },
-  {
-    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
-    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya",
-    "text": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya\nBu dönüşüm tarihte ilk değil. Sokrates, yazının icadının hafızayı körelteceğinden korkmuştu. 17. yüzyılda René Descartes, geometrik şekilleri cebirsel denklemlere dönüştüren analitik geometriyi (Kartezyen koordinatlar) tanıttığında da benzer bir rahatsızlık yaşandı.\nIsaac Newton gibi bazı matematikçiler, bu cebirsel yöntemlerin “mide bulandırıcı derecede sıkıcı ve karmaşık” olduğunu ve geometrik sezgiyi öldürdüğünü savundu. Onlara göre, x’ler ve y’ler ile boğuşmak, ne yaptığınızı anlamadan işlem yapmaktı (“plug and chug”). Ancak bu soyutlama, kalkülüsün ve modern matematiğin kapılarını araladı. O zamanlar “kabul edilemez bir soyutlama” olarak görülen şey, bugün vazgeçilmez bir “matematiksel makine” (mathematical machinery) haline geldi.\nBugün yapay zeka, 17. yüzyıldaki cebirin rolünü üstleniyor. Birkaç yıl içinde, matematikçiler kanıtların sıkıcı kısımlarını —“nitty-gritty” detayları, lemmaları ve rutin doğrulamaları— yapay zekaya devredebilir."
-  },
-  {
-    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
-    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Somut Başarılar: DeepMind ve IMO Zaferi",
-    "text": "Somut Başarılar: DeepMind ve IMO Zaferi\nBu değişim artık sadece felsefi bir tartışma değil. 2024 yılında Google DeepMind, geliştirdiği AlphaProof ve AlphaGeometry sistemlerinin Uluslararası Matematik Olimpiyatı’nda (IMO) gümüş madalya seviyesinde puan aldığını duyurdu. Lise seviyesindeki en parlak zihinlerin yarıştığı, derin yaratıcılık gerektiren bu platformda bir makinenin başarılı olması, “yaratıcılık gerektiren işlerin otomatize edilemeyeceği” inancını sarstı.\nMontreal Üniversitesi’nden Andrew Granville gibi, bu teknolojinin etkisine şüpheyle yaklaşan matematikçiler bile durumu kabul noktasına geldi: “Sınırların nerede olduğuna dair düşüncelerimi tamamen yıktılar. Cin şişeden çıktı.”"
-  },
-  {
-    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
-    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama",
-    "text": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama\nGeleneksel bir matematikçi hem mimar hem de inşaat işçisidir. Kanıtın büyük tasarımını (mimariyi) kafasında kurar, ancak sonra her bir tuğlayı (lemmayı) tek tek yerine koymak, her çiviyi (mantıksal adımı) kendisi çakmak zorundadır.\nYapay zeka ve Lean gibi “kanıt asistanı” (proof assistant) sistemleri sayesinde bu değişiyor. Imperial College London’dan Heather Macbeth’in çalışmalarında gösterdiği gibi, kanıtın “hesaplama” kısımları makinelere devredilebilir. Matematikçinin görevi, ispatın her bir vidasını sıkmak değil, “taktik” adı verilen üst düzey komutlarla stratejiyi belirlemek haline geliyor.\nBu durum, matematikte bir kültür değişimini de beraberinde getiriyor: Kağıt üzerindeki titizlikten (rigor on paper) zihindeki titizliğe (rigor in head) geçiş. Toronto Üniversitesi’nden Daniel Litt’in dediği gibi: “Bir şeyi bütünsel anlamda anlayacağım, ancak tüm detaylarına hakim olmayacağım.” Bu, detaylara takıntılı olmasıyla bilinen matematikçiler için hem korkutucu hem de özgürleştirici bir devrim."
-  },
-  {
-    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
-    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği",
-    "text": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği\nBu yeni dönem, matematiği “laboratuvar bilimlerine” yaklaştırıyor. Parçacık fiziğinde (örneğin Higgs bozonunun keşfi) makalelerin binlerce yazarı vardır; hiç kimse projenin tüm detaylarına tek başına hakim değildir.\nDünyanın yaşayan en büyük matematikçilerinden Terence Tao, bu modelin öncülüğünü yapıyor. Tao, 2024 sonbaharında Denklemsel Teoriler Projesi adında devrim niteliğinde bir girişim başlattı. Proje, “magma” adı verilen matematiksel yapılardaki 22 milyon potansiyel mantıksal ilişkiyi incelemeyi hedefliyordu.\nTek bir kişinin ömrü buna yetmezdi. Ancak Tao, yapay zeka araçlarını ve kitle kaynaklı (crowdsourced) bir insan topluluğunu birleştirdi. AI modelleri milyonlarca durumu tarayıp bir “harita” çıkardı, insanlar ise bu haritadaki boşlukları doldurdu. Sonuçta proje aylar içinde tamamlandı.\nTao’nun vizyonu şudur: “Gelecekte bir matematik alanını keşfederken, önce bir yapay zekaya milyonlarca problemi taratıp bize bir manzara (landscape) sunmasını isteyeceğiz. Bu biz ‘daha sofistike’ insanları, enerjimizi nereye harcamamız gerektiği konusunda yönlendirecek.”"
-  },
-  {
-    "objectID": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
-    "href": "posts/matematiksel-guzellik-ve-yapay-zeka/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Matematiğin Sonu mu, Yeni Bir Form mu?",
-    "text": "Matematiğin Sonu mu, Yeni Bir Form mu?\nEğer makineler kanıtları yapabiliyorsa, matematikçilere ne kalacak? Harvard’dan Mark Kisin, matematik bölümlerinin gelecekte İngiliz Edebiyatı bölümlerine benzeyebileceğini söylüyor: Edebiyat profesörleri genellikle roman yazmaz, romanları eleştirir ve analiz eder. Matematikçiler de yapay zekanın ürettiği kanıtları inceleyen, yorumlayan ve öğreten “eleştirmenler” veya farklı AI araçlarını yöneten “orkestra şefleri” olabilir.\nDaniel Litt’in dürüstçe itiraf ettiği gibi: “Kişisel egom için bir darbe olur ama çok da üzülmem. Eğer bir dil modeli Riemann Hipotezi’ni kanıtlayıp bana açıklayabiliyorsa, bunu öğrenmekten mutluluk duyarım. Sonuçta matematikte asıl amacım neyin doğru olduğunu ve neden doğru olduğunu anlamak.”\nMatematik bitmiyor, sadece şekil değiştiriyor. Tıpkı geometriden cebire geçerken olduğu gibi, yeni araçlar bizi daha soyut, daha derin ve muhtemelen daha güzel hakikatlere taşıyacak."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zafer Acar",
     "section": "",
     "text": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası\n\n\n\nMatematik\n\nAnaliz\n\nAlgoritmalar\n\n\n\nVerilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.\n\n\n\n\n\n3 Şub 2026\n\n\nZafer Acar\n\n\n\n\n\n\n\n\n\n\n\n\nYapay Zeka Çağında Matematiğin Geleceği\n\n\n\nYapay Zeka\n\nMatematik Felsefesi\n\nGelecek\n\n\n\nMatematikçilerin rolü, inşaat işçiliğinden mimarlığa mı evriliyor? Descartes’tan DeepMind’a, Newton’dan Terence Tao’ya; matematiksel hakikatin ve güzellik algısının büyük dönüşümü.\n\n\n\n\n\n3 Şub 2026\n\n\nZafer Acar\n\n\n\n\n\nEşleşen öğe yok\n Başa dön"
-  },
-  {
-    "objectID": "posts/yz-matematik/index.html",
-    "href": "posts/yz-matematik/index.html",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "",
-    "text": "Yirminci yüzyılın başından beri matematiğin kalbi, bir ifadenin doğru mu yanlış mı olduğuna dair titiz ve mantıksal bir argüman olan kanıt olmuştur. Matematikçilerin kariyerleri, hangi teoremleri kanıtlayabildikleriyle ölçülür. En iyi kanıtlar sadece titiz değil, aynı zamanda zarif, yaratıcı ve güzeldir; adeta birer sanat eseridirler. Entelektüel zekanın zirvesi olarak görülen bu aktivite, derinlemesine “insani” hissettirir.\nAncak yapay zeka bu tabloyu kökten değiştiriyor. Google DeepMind’ın IMO (Uluslararası Matematik Olimpiyatı) seviyesindeki problemleri çözebilen sistemlerinden, Terence Tao’nun kitle kaynaklı dev projelerine kadar uzanan gelişmelerle, matematik yapma biçimimiz geri döndürülemez bir dönüşümün eşiğinde."
-  },
-  {
-    "objectID": "posts/yz-matematik/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
-    "href": "posts/yz-matematik/index.html#araçların-getirdiği-dönüşüm-geometriden-cebire-cebirden-yapay-zekaya",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya",
-    "text": "Araçların Getirdiği Dönüşüm: Geometriden Cebire, Cebirden Yapay Zekaya\nBu dönüşüm tarihte ilk değil. Sokrates, yazının icadının hafızayı körelteceğinden korkmuştu. 17. yüzyılda René Descartes, geometrik şekilleri cebirsel denklemlere dönüştüren analitik geometriyi tanıttığında da benzer bir rahatsızlık yaşandı.\nNewton gibi bazı matematikçiler, bu cebirsel yöntemlerin “mide bulandırıcı derecede sıkıcı ve karmaşık” olduğunu ve geometrik sezgiyi öldürdüğünü savundu. Onlara göre, x’ler ve y’ler ile boğuşmak, ne yaptığınızı anlamadan işlem yapmaktı. Ancak bu soyutlama, kalkülüsün ve modern matematiğin kapılarını araladı. O zamanlar “kabul edilemez bir soyutlama” olarak görülen şey, bugün vazgeçilmez bir “matematiksel makine” haline geldi.\nBugün yapay zeka, 17. yüzyıldaki cebirin rolünü üstleniyor. Birkaç yıl içinde, matematikçiler kanıtların sıkıcı kısımlarını yapay zekaya devredebilir."
-  },
-  {
-    "objectID": "posts/yz-matematik/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
-    "href": "posts/yz-matematik/index.html#somut-başarılar-deepmind-ve-imo-zaferi",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Somut Başarılar: DeepMind ve IMO Zaferi",
-    "text": "Somut Başarılar: DeepMind ve IMO Zaferi\nBu değişim artık sadece felsefi bir tartışma değil. 2024 yılında Google DeepMind, geliştirdiği AlphaProof ve AlphaGeometry sistemlerinin Uluslararası Matematik Olimpiyatı’nda (IMO) gümüş madalya seviyesinde puan aldığını duyurdu. Lise seviyesindeki en parlak zihinlerin yarıştığı, derin yaratıcılık gerektiren bu platformda bir makinenin başarılı olması, “yaratıcılık gerektiren işlerin otomatize edilemeyeceği” inancını sarstı.\nMontreal Üniversitesi’nden Andrew Granville gibi, bu teknolojinin etkisine şüpheyle yaklaşan matematikçiler bile durumu kabul noktasına geldi: “Sınırların nerede olduğuna dair düşüncelerimi tamamen yıktılar. Cin şişeden çıktı.”"
-  },
-  {
-    "objectID": "posts/yz-matematik/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
-    "href": "posts/yz-matematik/index.html#inşaat-işçiliğinden-mimarlığa-lean-ve-resmi-doğrulama",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama",
-    "text": "İnşaat İşçiliğinden Mimarlığa: Lean ve Resmi Doğrulama\nGeleneksel bir matematikçi hem mimar hem de inşaat işçisidir. Kanıtın büyük tasarımını (mimariyi) kafasında kurar, ancak sonra her bir tuğlayı (lemmayı) tek tek yerine koymak, her çiviyi (mantıksal adımı) kendisi çakmak zorundadır.\nYapay zeka ve Lean gibi “kanıt asistanı” sistemleri sayesinde bu değişiyor. Imperial College London’dan Heather Macbeth’in çalışmalarında gösterdiği gibi, kanıtın “hesaplama” kısımları makinelere devredilebilir. Matematikçinin görevi, ispatın her bir vidasını sıkmak değil, “taktik” adı verilen üst düzey komutlarla stratejiyi belirlemek haline geliyor.\nBu durum, matematikte bir kültür değişimini de beraberinde getiriyor: Kağıt üzerindeki titizlikten zihindeki titizliğe geçiş. Toronto Üniversitesi’nden Daniel Litt’in dediği gibi: “Bir şeyi bütünsel anlamda anlayacağım, ancak tüm detaylarına hakim olmayacağım.” Bu, detaylara takıntılı olmasıyla bilinen matematikçiler için hem korkutucu hem de özgürleştirici bir devrim."
-  },
-  {
-    "objectID": "posts/yz-matematik/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
-    "href": "posts/yz-matematik/index.html#fizikleşen-matematik-terence-tao-ve-endüstriyel-ölçekte-işbirliği",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği",
-    "text": "Fizikleşen Matematik: Terence Tao ve Endüstriyel Ölçekte İşbirliği\nBu yeni dönem, matematiği “laboratuvar bilimlerine” yaklaştırıyor. Parçacık fiziğinde (örneğin Higgs bozonunun keşfi) makalelerin binlerce yazarı vardır; hiç kimse projenin tüm detaylarına tek başına hakim değildir.\nDünyanın yaşayan en büyük matematikçilerinden Terence Tao, bu modelin öncülüğünü yapıyor. Tao, 2024 sonbaharında Denklemsel Teoriler Projesi adında devrim niteliğinde bir girişim başlattı. Proje, “magma” adı verilen matematiksel yapılardaki 22 milyon potansiyel mantıksal ilişkiyi incelemeyi hedefliyordu.\nTek bir kişinin ömrü buna yetmezdi. Ancak Tao, yapay zeka araçlarını ve bir insan topluluğunu birleştirdi. AI modelleri milyonlarca durumu tarayıp bir “harita” çıkardı, insanlar ise bu haritadaki boşlukları doldurdu. Sonuçta proje aylar içinde tamamlandı.\nTao’nun vizyonu şudur: “Gelecekte bir matematik alanını keşfederken, önce bir yapay zekaya milyonlarca problemi taratıp bize bir manzara sunmasını isteyeceğiz. Bu biz ‘daha sofistike’ insanları, enerjimizi nereye harcamamız gerektiği konusunda yönlendirecek.”"
-  },
-  {
-    "objectID": "posts/yz-matematik/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
-    "href": "posts/yz-matematik/index.html#matematiğin-sonu-mu-yeni-bir-form-mu",
-    "title": "Yapay Zeka Çağında Matematiğin Geleceği",
-    "section": "Matematiğin Sonu mu, Yeni Bir Form mu?",
-    "text": "Matematiğin Sonu mu, Yeni Bir Form mu?\nEğer makineler kanıtları yapabiliyorsa, matematikçilere ne kalacak? Harvard’dan Mark Kisin, matematik bölümlerinin gelecekte İngiliz Edebiyatı bölümlerine benzeyebileceğini söylüyor: Edebiyat profesörleri genellikle roman yazmaz, romanları eleştirir ve analiz eder. Matematikçiler de yapay zekanın ürettiği kanıtları inceleyen, yorumlayan ve öğreten “eleştirmenler” veya farklı AI araçlarını yöneten “orkestra şefleri” olabilir.\nDaniel Litt’in dürüstçe itiraf ettiği gibi: “Kişisel egom için bir darbe olur ama çok da üzülmem. Eğer bir dil modeli Riemann Hipotezi’ni kanıtlayıp bana açıklayabiliyorsa, bunu öğrenmekten mutluluk duyarım. Sonuçta matematikte asıl amacım neyin doğru olduğunu ve neden doğru olduğunu anlamak.”\nMatematik bitmiyor, sadece şekil değiştiriyor. Tıpkı geometriden cebire geçerken olduğu gibi, yeni araçlar bizi daha soyut, daha derin ve muhtemelen daha güzel hakikatlere taşıyacak."
   }
 ]

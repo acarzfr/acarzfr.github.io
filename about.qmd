@@ -19,5 +19,5 @@ about:
 
 
 ::: {.about-animate}
-Matematiğin dünyasına açılan kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.
+Kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.
 :::
