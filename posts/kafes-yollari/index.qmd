@@ -2,7 +2,7 @@
 title: "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet"
 date: "2026-02-04"
 categories: [Matematik, Kombinatorik, Algoritmalar]
-image: image_cleaned.png
+image: image.jpg
 description: "Sadece Kuzey ve Doğu yönüne giden bir karıncanın kaç farklı yolu olabilir? Pascal Üçgeni'nden Catalan sayılarına uzanan, basit kuralların karmaşık güzellikler yarattığı bir matematiksel yolculuk."
 author: "Zafer Acar"
 html-math-method: katex
