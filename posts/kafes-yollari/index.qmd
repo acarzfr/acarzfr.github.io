@@ -8,6 +8,7 @@ author: "Zafer Acar"
 html-math-method: katex
 filters:
   - tikz
+
 ---
 
 Hayal edin: Devasa, ızgara planlı bir şehirde, tam sol alt köşedesiniz $(0,0)$. Hedefiniz ise şehrin tam zıt köşesindeki o parıltılı gökdelen $(n,n)$. Ancak bir kural var: Sadece **Doğu** (sağa) ve **Kuzey** (yukarı) yönünde ilerleyebilirsiniz. Geri dönmek yok, aşağı inmek yok.
