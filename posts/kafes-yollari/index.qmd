@@ -6,6 +6,8 @@ image: image.jpg
 description: "Sadece Kuzey ve Doğu yönüne giden bir karıncanın kaç farklı yolu olabilir? Pascal Üçgeni'nden Catalan sayılarına uzanan, basit kuralların karmaşık güzellikler yarattığı bir matematiksel yolculuk."
 author: "Zafer Acar"
 html-math-method: katex
+filters:
+  - tikz
 ---
 
 Hayal edin: Devasa, ızgara planlı bir şehirde, tam sol alt köşedesiniz $(0,0)$. Hedefiniz ise şehrin tam zıt köşesindeki o parıltılı gökdelen $(n,n)$. Ancak bir kural var: Sadece **Doğu** (sağa) ve **Kuzey** (yukarı) yönünde ilerleyebilirsiniz. Geri dönmek yok, aşağı inmek yok.
@@ -23,6 +25,23 @@ Matematikçiler buna "tekrarlı permütasyon" der ve cevabı binom katsayıları
 $$ \binom{6}{3} = \frac{6 \times 5 \times 4}{3 \times 2 \times 1} = 20 $$
 
 Bu sayılar tanıdık geldi mi? Evet, bu tam olarak **Pascal Üçgeni**! Her kavşakta, o noktaya ulaşan yol sayısı, bir önceki sol ve alt noktanın toplamıdır. Karıncamızın her adımı, Pascal'ın o muazzam sayı piramidini inşa eder.
+
+::: center
+```{.tikz} 
+\begin{tikzpicture}[scale=1.5]
+    \draw[help lines, color=gray!30, dashed] (0,0) grid (3,3);
+    \draw[->,thick] (0,0)--(3,0) node[right]{$x$};
+    \draw[->,thick] (0,0)--(0,3) node[above]{$y$};
+    \foreach \x in {0,1,2,3}
+        \foreach \y in {0,1,2,3}
+            \fill (\x,\y) circle (2pt);
+    \draw[ultra thick, blue] (0,0) -- (1,0) -- (1,1) -- (2,1) -- (2,2) -- (3,2) -- (3,3);
+    \node[below left] at (0,0) {$(0,0)$};
+    \node[above right] at (3,3) {$(3,3)$};
+\end{tikzpicture}
+```
+:::
+
    
   
 
@@ -40,6 +59,25 @@ $$ C_n = \frac{1}{n+1}\binom{2n}{n} $$
 
 Bizim örneğimizde ($n=3$):
 $$ C_3 = \frac{1}{4}\binom{6}{3} = \frac{20}{4} = 5 $$
+
+:::center
+```{.tikz}
+%%| caption:
+
+\begin{tikzpicture}[scale=1.5]
+    \draw[help lines, color=gray!30, dashed] (0,0) grid (3,3);
+    \draw[->,thick] (0,0)--(3,0) node[right]{$x$};
+    \draw[->,thick] (0,0)--(0,3) node[above]{$y$};
+    \foreach \x in {0,1,2,3}
+        \foreach \y in {0,1,2,3}
+            \fill (\x,\y) circle (2pt);
+    \draw[red, dashed] (0,0) -- (3,3);
+    \fill[red, opacity=0.1] (0,0) -- (0,3) -- (3,3) -- cycle;
+    \node[red, font=\footnotesize] at (1,2.25) {Yasak Bölge};
+    \draw[ultra thick, green!60!black] (0,0) -- (1,0) -- (2,0) -- (2,1) -- (2,2) -- (3,2) -- (3,3);
+\end{tikzpicture}
+```
+:::
 
 
 ## Neden Bu Kadar Önemli?
