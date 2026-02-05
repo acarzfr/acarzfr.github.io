@@ -31,7 +31,7 @@
 <p><img src="https://latex.codecogs.com/png.latex?%20%5Cbinom%7B6%7D%7B3%7D%20=%20%5Cfrac%7B6%20%5Ctimes%205%20%5Ctimes%204%7D%7B3%20%5Ctimes%202%20%5Ctimes%201%7D%20=%2020%20"></p>
 <p>Bu sayılar tanıdık geldi mi? Evet, bu tam olarak <strong>Pascal Üçgeni</strong>! Her kavşakta, o noktaya ulaşan yol sayısı, bir önceki sol ve alt noktanın toplamıdır. Karıncamızın her adımı, Pascal’ın o muazzam sayı piramidini inşa eder.</p>
 <div class="center">
-<img src="https://acarzfr.github.io/posts/kafes-yollari/index_files/mediabag/f1c819c575f6dc30c6b015b4af03e1583a46f280.svg" class="img-fluid">
+<img src="https://acarzfr.github.io/posts/kafes-yollari/index_files/mediabag/7f3f9f8d866ab580fd8d0e04b253d5d33017425f.svg" class="img-fluid">
 </div>
 </section>
 <section id="yasaklı-bölge-ve-catalan-sayıları" class="level2">
@@ -43,7 +43,7 @@
 <p><img src="https://latex.codecogs.com/png.latex?%20C_n%20=%20%5Cfrac%7B1%7D%7Bn+1%7D%5Cbinom%7B2n%7D%7Bn%7D%20"></p>
 <p>Bizim örneğimizde (<img src="https://latex.codecogs.com/png.latex?n=3">): <img src="https://latex.codecogs.com/png.latex?%20C_3%20=%20%5Cfrac%7B1%7D%7B4%7D%5Cbinom%7B6%7D%7B3%7D%20=%20%5Cfrac%7B20%7D%7B4%7D%20=%205%20"></p>
 <div class="center">
-<img src="https://acarzfr.github.io/posts/kafes-yollari/index_files/mediabag/4b95ae17f6fdcf5f33e7b9496f276fceb41d3ed1.svg" class="img-fluid">
+<img src="https://acarzfr.github.io/posts/kafes-yollari/index_files/mediabag/539c717546f33055058ff7393f18f4d2c2ac8511.svg" class="img-fluid">
 </div>
 </section>
 <section id="neden-bu-kadar-önemli" class="level2">
