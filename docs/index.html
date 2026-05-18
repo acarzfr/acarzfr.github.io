@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Zafer Acar</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,19 +37,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-db96ba1acf33914b3c1c7717bb76b37c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1964026b0362981af2eb9922b6dc44bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-db96ba1acf33914b3c1c7717bb76b37c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2413a3bf34fc748bf17b18f707b94c67.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9917cd8f4bf3b2038872778ec9f7e6da.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-2413a3bf34fc748bf17b18f707b94c67.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -152,11 +154,9 @@ window.Quarto = {
 
 <link rel="stylesheet" href="style/styles.css">
 <link rel="alternate" type="application/rss+xml" title="Zafer Acar" href="index.xml" data-external="1"><meta property="og:title" content="Zafer Acar">
-<meta property="og:image" content="https://acarzfr.github.io/posts/kafes-yollari/image.jpg">
 <meta property="og:site_name" content="Zafer Acar">
 <meta name="twitter:title" content="Zafer Acar">
-<meta name="twitter:image" content="https://acarzfr.github.io/posts/kafes-yollari/image.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -353,7 +353,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.x.com/@acarzfr"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://www.instagram.com/acar_zfr/"> <i class="bi bi-instagram" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -381,7 +381,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategoriler</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Hepsi <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QWxnb3JpdG1hbGFy">Algoritmalar <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QW5hbGl6">Analiz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="S29tYmluYXRvcmlr">Kombinatorik <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWF0ZW1hdGlr">Matematik <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategoriler</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Hepsi <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -395,74 +395,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TWF0ZW1hdGlrJTJDS29tYmluYXRvcmlrJTJDQWxnb3JpdG1hbGFy" data-listing-date-sort="1770152400000" data-listing-file-modified-sort="1771571677498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
-<div class="thumbnail"><a href="./posts/kafes-yollari/index.html" class="no-external">
 
-<img loading="lazy" src="./posts/kafes-yollari/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/kafes-yollari/index.html" class="no-external">Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW1hdGlr'); return false;">Matematik</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('S29tYmluYXRvcmlr'); return false;">Kombinatorik</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWxnb3JpdG1hbGFy'); return false;">Algoritmalar</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/kafes-yollari/index.html" class="no-external">
-<p>Sadece Kuzey ve Doğu yönüne giden bir karıncanın kaç farklı yolu olabilir? Pascal Üçgeni’nden Catalan sayılarına uzanan, basit kuralların karmaşık güzellikler yarattığı bir matematiksel yolculuk.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/kafes-yollari/index.html" class="no-external">
-<div class="listing-date">
-4 Şub 2026
-</div>
-<div class="listing-author">
-Zafer Acar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TWF0ZW1hdGlrJTJDQW5hbGl6JTJDQWxnb3JpdG1hbGFy" data-listing-date-sort="1770066000000" data-listing-file-modified-sort="1770280913010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="947">
-<div class="thumbnail"><a href="./posts/polinom-dizileri/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/polinom-dizileri/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/polinom-dizileri/index.html" class="no-external">Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW1hdGlr'); return false;">Matematik</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QW5hbGl6'); return false;">Analiz</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWxnb3JpdG1hbGFy'); return false;">Algoritmalar</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/polinom-dizileri/index.html" class="no-external">
-<p>Verilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/polinom-dizileri/index.html" class="no-external">
-<div class="listing-date">
-3 Şub 2026
-</div>
-<div class="listing-author">
-Zafer Acar
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">Eşleşen öğe yok</div>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Başa dön</a></main> <!-- /main -->

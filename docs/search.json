@@ -7,48 +7,6 @@
     "text": "Kişisel web siteme ve bloguma hoş geldiniz. Bir matematik öğretmeni olarak bu platformda, ders notlarımı ve çeşitli konulardaki yazılarımı sizlerle paylaşıyorum.\n\n\n\n Başa dön"
   },
   {
-    "objectID": "posts/polinom-dizileri/index.html",
-    "href": "posts/polinom-dizileri/index.html",
-    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
-    "section": "",
-    "text": "Matematikte en sevdiğimiz oyunlardan biri “örüntüyü bul” oyunudur. Bir sayı dizisiyle karşılaştığımızda, beynimiz otomatik olarak bir sonraki sayıyı tahmin etmeye çalışır.\n2, 5, 10, 17, 26, \\dots\nBu diziye baktığınızda muhtemelen bir sonraki sayının \\mathbf{37} olduğunu hemen söylersiniz. Kuralın n^2+1 olduğunu fark etmek zor değil. Peki ya dizi daha karmaşık olsaydı? Ya ilk bakışta kuralı göremeseydik?\nBu yazıda, bir dizinin kapalı formülünün polinom olup olmadığını anlamamıza ve eğer öyleyse bu formülü sistematik bir şekilde bulmamıza yarayan güçlü bir araçtan, Sonlu Farklar yönteminden bahsedeceğiz."
-  },
-  {
-    "objectID": "posts/polinom-dizileri/index.html#sonlu-farklar-nedir",
-    "href": "posts/polinom-dizileri/index.html#sonlu-farklar-nedir",
-    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
-    "section": "Sonlu Farklar Nedir?",
-    "text": "Sonlu Farklar Nedir?\nBir (a_n)_{n \\ge 0} dizisi verildiğinde, bu dizinin terimleri arasındaki değişimi incelemek için birinci farklar dizisi (\\Delta a_n) şu şekilde tanımlanır:\n \\Delta a_n = a_{n+1} - a_n \nBu işlem türev almaya benzer; ancak sürekli fonksiyonlar yerine ayrık dizilerle çalışırız. Eğer birinci farklar dizisinin de farklarını alırsak, ikinci farklar dizisini (\\Delta^2 a_n) elde ederiz. Bu işlemi tekrarlayarak dizinin karakteristiği hakkında derinlemesine bilgi edinebiliriz.\n\nÖrnek 1 a_n = n^2 dizisini (0, 1, 4, 9, 16, \\dots) ele alalım ve fark tablosunu oluşturalım:\n\n\n\n\n\n\n\n\n\n\nn\na_n\n\\Delta a_n (1. Fark)\n\\Delta^2 a_n (2. Fark)\n\\Delta^3 a_n (3. Fark)\n\n\n\n\n0\n0\n1\n2\n0\n\n\n1\n1\n3\n2\n0\n\n\n2\n4\n5\n2\n\\dots\n\n\n3\n9\n7\n\\dots\n\n\n\n4\n16\n\\dots\n\n\n\n\n\nBu tabloda dikkat çekici bir örüntü var:\n\nBirinci farklar dizisi (1, 3, 5, 7, \\dots) tek sayılardan oluşuyor.\nİkinci farklar dizisi ise sabit bir dizi (2, 2, 2, \\dots) haline geliyor.\nÜçüncü ve sonraki farklar doğal olarak 0 oluyor."
-  },
-  {
-    "objectID": "posts/polinom-dizileri/index.html#temel-teorem",
-    "href": "posts/polinom-dizileri/index.html#temel-teorem",
-    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
-    "section": "Temel Teorem",
-    "text": "Temel Teorem\nBu basit gözlem, Sonlu Farklar Hesabının Temel Teoremi’nin bir yansımasıdır:\n\nTeorem 1 Bir (a_n) dizisi, ancak ve ancak \\Delta^k a_n dizisi (k-ıncı farklar) sıfırdan farklı bir sabit sayı dizisi ise, n’ye bağlı k-ıncı dereceden bir polinomdur.\n\nYani yukarıdaki örnekte ikinci farkların sabit çıkması, dizinin formülünün an^2 + bn + c şeklinde, yani 2. dereceden (kuadratik) bir polinom olduğunu gösterir.\n\nEğer 1. farklar sabitse \\rightarrow Dizi lineerdir (Aritmetik dizi, an+b).\nEğer 2. farklar sabitse \\rightarrow Dizi kuadratiktir (an^2+bn+c).\nEğer 3. farklar sabitse \\rightarrow Dizi kübiktir (an^3+bn^2+cn+d)."
-  },
-  {
-    "objectID": "posts/polinom-dizileri/index.html#formülü-nasıl-buluruz",
-    "href": "posts/polinom-dizileri/index.html#formülü-nasıl-buluruz",
-    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
-    "section": "Formülü Nasıl Buluruz?",
-    "text": "Formülü Nasıl Buluruz?\nBir dizinin polinom olduğunu tespit ettikten sonra (farkların sabitlendiği noktayı bularak), genel terim a_n’i bulmak için Newton’un İleri Farklar Formülü’nü kullanabiliriz. Eğer dizimiz a_0 terimiyle başlıyorsa formül şöyledir:\n a_n = \\sum_{i=0}^k \\Delta^i a_0 \\binom{n}{i} \nBurada \\Delta^i a_0, oluşturduğumuz fark tablosunun ilk satırındaki (köşegenindeki) sayıları temsil eder.\nAz önceki kare sayılar örneğine (0, 1, 4, 9, \\dots) geri dönelim ve ilk satır elemanlarına bakalım:\n\na_0 = 0 (Dizinin ilk terimi)\n\\Delta a_0 = 1 (1. farkların ilk terimi)\n\\Delta^2 a_0 = 2 (2. farkların ilk terimi)\n\nBu değerleri formülde yerine koyalım:\n a_n = 0 \\cdot \\binom{n}{0} + 1 \\cdot \\binom{n}{1} + 2 \\cdot \\binom{n}{2} \nBinom katsayılarını \\left(\\binom{n}{1} = n, \\binom{n}{2} = \\frac{n(n-1)}{2}\\right) açarsak:\n\\begin{align*}\na_n &= n + 2 \\cdot \\frac{n^2 - n}{2} \\\\\na_n &= n + (n^2 - n) \\\\\na_n &= n^2\n\\end{align*}\nVe işte! Sadece farklar tablosunun ilk elemanlarını kullanarak dizinin kapalı formülünü elde ettik. Bu yöntem, sadece basit dizilerde değil, karmaşık katsayılara sahip yüksek dereceli polinom dizilerinde de kusursuz çalışır."
-  },
-  {
-    "objectID": "posts/polinom-dizileri/index.html#her-dizi-bir-polinom-mudur",
-    "href": "posts/polinom-dizileri/index.html#her-dizi-bir-polinom-mudur",
-    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
-    "section": "Her Dizi Bir Polinom mudur?",
-    "text": "Her Dizi Bir Polinom mudur?\nHayır. Örneğin geometrik diziler (1, 2, 4, 8, 16, \\dots) kaç kez fark alırsanız alın asla sabitlenmezler; aksine kendilerini tekrar ederler (veya katlanarak büyürler).\n\nDizi: 1, 2, 4, 8, 16, \\dots\n\\Delta: 1, 2, 4, 8, \\dots (Yine kendisi!)\n\nEğer fark alma işlemi bir döngüye giriyorsa veya farklar gittikçe büyüyorsa, dizinizin genel terimi muhtemelen polinomik değil, üstel bir fonksiyondur (a_n = r^n gibi)."
-  },
-  {
-    "objectID": "posts/polinom-dizileri/index.html#sonuç",
-    "href": "posts/polinom-dizileri/index.html#sonuç",
-    "title": "Polinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası",
-    "section": "Sonuç",
-    "text": "Sonuç\nMatematiksel analizde dizilerin davranışını anlamak, hem teorik matematikte hem de algoritma analizinde kritiktir. Sonlu farklar yöntemi, karmaşık sayı dizilerinin arkasındaki düzeni görmek ve onları öngörülebilir formüllere dönüştürmek için harika bir araçtır.\nBir dahaki sefere bir IQ testinde, bir bulmacada veya algoritmik bir problemde “sırada ne var?” sorusuyla karşılaştığınızda, hemen farkları almayı deneyin. Çözüm, o sayıların arasındaki basit farklarda gizli olabilir."
-  },
-  {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Kitaplar",
@@ -63,45 +21,10 @@
     "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
   },
   {
-    "objectID": "posts/kafes-yollari/index.html",
-    "href": "posts/kafes-yollari/index.html",
-    "title": "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet",
-    "section": "",
-    "text": "Hayal edin: Devasa, ızgara planlı bir şehirde, tam sol alt köşedesiniz (0,0). Hedefiniz ise şehrin tam zıt köşesindeki o parıltılı gökdelen (n,n). Ancak bir kural var: Sadece Doğu (sağa) ve Kuzey (yukarı) yönünde ilerleyebilirsiniz. Geri dönmek yok, aşağı inmek yok.\nSoru basit görünüyor: Kaç farklı yoldan gidebilirsiniz?\nBu basit soru, matematiğin en zarif ve güçlü alanlarından biri olan kombinatorik dünyasının kapısını aralar. İşte “Kafes Yolları”nın (Lattice Paths) büyüleyici dünyasına hoş geldiniz."
-  },
-  {
-    "objectID": "posts/kafes-yollari/index.html#pascalın-ayak-izleri",
-    "href": "posts/kafes-yollari/index.html#pascalın-ayak-izleri",
-    "title": "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet",
-    "section": "Pascal’ın Ayak İzleri",
-    "text": "Pascal’ın Ayak İzleri\nDiyelim ki 3 \\times 3 bir ızgaradasınız. Hedefe (3,3) ulaşmak için toplamda 6 adım atmanız gerekir: 3 adım sağa (D), 3 adım yukarı (K). Yani elinizde 3 tane D ve 3 tane K harfi var. Soru şuna dönüşür: “DDDKKK” harflerini kaç farklı şekilde sıralayabilirim?\nMatematikçiler buna “tekrarlı permütasyon” der ve cevabı binom katsayıları verir:\n \\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20 \nBu sayılar tanıdık geldi mi? Evet, bu tam olarak Pascal Üçgeni! Her kavşakta, o noktaya ulaşan yol sayısı, bir önceki sol ve alt noktanın toplamıdır. Karıncamızın her adımı, Pascal’ın o muazzam sayı piramidini inşa eder."
-  },
-  {
-    "objectID": "posts/kafes-yollari/index.html#yasaklı-bölge-ve-catalan-sayıları",
-    "href": "posts/kafes-yollari/index.html#yasaklı-bölge-ve-catalan-sayıları",
-    "title": "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet",
-    "section": "Yasaklı Bölge ve Catalan Sayıları",
-    "text": "Yasaklı Bölge ve Catalan Sayıları\nŞimdi oyunu biraz zorlaştıralım. Şehrin tam ortasından, (0,0) ile (n,n) noktalarını birleştiren bir nehir (köşegen) geçiyor. Ve kural şu: Asla nehrin üzerine çıkamazsın! (Yani y &gt; x olamaz). Köşegene dokunabilirsin ama onu geçemezsin.\nBu kısıtlama altında, 3 \\times 3lük ızgarada kaç yol kalır?\nCevap 20 değil, sadece 5’tir.\nİşte burada matematiğin en ünlü dizilerinden biri sahneye çıkar: Catalan Sayıları. n \\times n bir ızgarada, köşegeni geçmeyen yolların sayısı n. Catalan sayısı C_n ile bulunur:\n C_n = \\frac{1}{n+1}\\binom{2n}{n} \nBizim örneğimizde (n=3):  C_3 = \\frac{1}{4}\\binom{6}{3} = \\frac{20}{4} = 5"
-  },
-  {
-    "objectID": "posts/kafes-yollari/index.html#neden-bu-kadar-önemli",
-    "href": "posts/kafes-yollari/index.html#neden-bu-kadar-önemli",
-    "title": "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet",
-    "section": "Neden Bu Kadar Önemli?",
-    "text": "Neden Bu Kadar Önemli?\n“Peki, bir karıncanın yürüyüşü neden bu kadar önemli?” diye sorabilirsiniz. İşte matematiğin güzelliği burada saklı. Bu “köşegeni geçmeme” problemi, görünüşte alakasız onlarca farklı problemin de cevabıdır:\n\nParantez Eşleştirme: 3 çift parantezi kaç farklı, geçerli şekilde yazabilirsiniz?\n\n((())), ()(()), ()()(), (())(), (()()) -&gt; Tam 5 tane!\n\nÇokgenleri Üçgenlere Bölme: Bir altıgeni, köşegenlerle kaç farklı şekilde üçgenlere ayırabilirsiniz? Cevap yine C_4 = 14.\nDağ Sıraları: n tane yukarı tırmanış ve n tane inişle, deniz seviyesinin altına inmeden kaç farklı dağ silueti çizebilirsiniz? Yine Catalan sayıları!"
-  },
-  {
-    "objectID": "posts/kafes-yollari/index.html#sonuç-kısıtlamaların-yarattığı-güzellik",
-    "href": "posts/kafes-yollari/index.html#sonuç-kısıtlamaların-yarattığı-güzellik",
-    "title": "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet",
-    "section": "Sonuç: Kısıtlamaların Yarattığı Güzellik",
-    "text": "Sonuç: Kısıtlamaların Yarattığı Güzellik\nKafes yolları bize şunu gösterir: Matematik sadece sayılarla ilgili değildir; desenlerle, yapılarla ve kısıtlamalar altındaki olasılıklarla ilgilidir. Sadece “sağa ve yukarı” gitme kuralı bile sonsuz karmaşıklıkta ve güzellikte bir evren yaratmaya yeter.\nBir dahaki sefere kareli bir kağıt önünüze geldiğinde, o çizgilerin sadece birer rehber değil, sonsuz sayıda yolculuğun sessiz tanıkları olduğunu hatırlayın. Belki de bir sonraki probleminizin çözümü, o ızgaraların arasındaki gizli yollarda saklıdır."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zafer Acar",
     "section": "",
-    "text": "Bir Karınca ve Sonsuz Olasılıklar: Kafes Yollarını ve Büyüsünü Keşfet\n\n\n\nMatematik\n\nKombinatorik\n\nAlgoritmalar\n\n\n\nSadece Kuzey ve Doğu yönüne giden bir karıncanın kaç farklı yolu olabilir? Pascal Üçgeni’nden Catalan sayılarına uzanan, basit kuralların karmaşık güzellikler yarattığı bir matematiksel yolculuk.\n\n\n\n\n\n4 Şub 2026\n\n\nZafer Acar\n\n\n\n\n\n\n\n\n\n\n\n\nPolinom Dizileri: Sıradaki Sayıyı Tahmin Etmekten Fazlası\n\n\n\nMatematik\n\nAnaliz\n\nAlgoritmalar\n\n\n\nVerilen bir sayı dizisinin formülünü bulmanın matematiksel ve sistematik bir yolu olan Sonlu Farklar Yöntemi üzerine bir inceleme.\n\n\n\n\n\n3 Şub 2026\n\n\nZafer Acar\n\n\n\n\n\nEşleşen öğe yok\n Başa dön"
+    "text": "Eşleşen öğe yok\n Başa dön"
   }
 ]

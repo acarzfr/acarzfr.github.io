@@ -11,6 +11,9 @@ about:
       - icon: github
         text: GitHub
         href: https://github.com/acarzfr/
+      - icon: instagram
+        text: Instagram
+        href: https://www.instagram.com/acar_zfr/
       - icon: envelope
         text: Eposta
         href: mailto:acarzfr@gmail.com
