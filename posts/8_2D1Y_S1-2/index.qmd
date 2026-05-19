@@ -1,0 +1,34 @@
+---
+title: "8. Sınıf Matematik 2. Dönem 2. Yazılı Soruları ve Çözümleri"
+date: "2026-05-19"
+categories: [Matematik, Yazılılar, 8. Sınıf]
+image: cover.jpg
+description: "Milli Eğitim Bakanlığı senaryolarına uygun olarak hazırlanan 8. Sınıf Matematik 2. Dönem 2. Yazılı (Senaryo 1-2) sınav soruları ve PDF indirme bağlantısı."
+author: "Zafer Acar"
+html-math-method: katex
+---
+
+Merhaba sevgili öğrenciler ve değerli meslektaşlarım,
+
+8\. sınıf öğrencilerimiz için hazırladığım **8. Sınıf Matematik 2. Dönem 2. Yazılı** (Senaryo 1-2) sorularını paylaşıyorum. Sınav soruları, MEB'in yayınladığı güncel konu soru dağılım tabloları ve kazanımlarla birebir uyumlu olarak hazırlanmıştır. 
+
+## Soru Çözüm Videosu
+
+Yazılıdaki soruların detaylı çözümlerini izlemek için hazırladığım videoyu aşağıdan seyredebilirsiniz:
+
+
+{{< video https://youtu.be/T44djqwLHgY >}}
+
+Eğer yukarıdaki oynatıcı çalışmazsa doğrudan [YouTube Kanalımdan](https://www.youtube.com/@acarzfr) videoya ulaşabilir ve diğer içeriklerine göz atabilirsiniz.
+
+
+
+## PDF Dosyasını Görüntüle ve İndir
+
+Sınav sorularının yer aldığı PDF belgesini doğrudan aşağıdan inceleyebilir ve **"Yazılı Kağıdını İndir"** butonuyla bilgisayarınıza veya telefonunuza kaydedebilirsiniz.
+
+{{< pdf 8_2D2Y_S1-2.pdf width=100% height=800px button="Yazılı Kağıdını İndir" >}}
+
+---
+
+Sınava girecek tüm öğrencilerimize başarılar dilerim! Görüş ve sorularınızı aşağıdaki yorumlar bölümünden bana iletebilirsiniz.
