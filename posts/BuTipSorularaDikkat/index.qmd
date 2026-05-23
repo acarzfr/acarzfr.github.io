@@ -1,0 +1,35 @@
+---
+title: "Bu Tip Sorulara Dikkat! LGS Matematik"
+date: "2026-05-23"
+categories: [Matematik, LGS, EBOB, Geometri, Soru Çözümü]
+image: thumbnail.jpg
+description: "LGS Matematik hazırlığında öğrencilerin en sık hata yaptığı soru tiplerinden birini ele alıyoruz. Çözümler, püf noktaları ve video çözümü."
+author: "Zafer Acar"
+html-math-method: katex
+---
+
+Merhaba sevgili öğrenciler ve değerli meslektaşlarım,
+
+LGS Matematik sınavlarında başarılı olmanın yolu yalnızca formülleri ve kuralları bilmekten geçmez; aynı zamanda soruların içine gizlenmiş küçük ama can alıcı ayrıntıları görebilmekten geçer. 
+
+Öğrencilerin sıklıkla karşılaştığı ve en çok hata yaptığı soru tiplerinden birini ele alacağız. Bu soruyu ve çözümünü içeren PDF dosyasını indirebilir ve aşağıdaki video çözümünü izleyerek detayları öğrenebilirsiniz.
+
+## Soru Çözüm Videosu
+
+Bu iki sorunun püf noktalarını, öğrencilerin nerede hata yaptığını ve doğru çözüm yollarını detaylıca anlattığım videoyu aşağıdan izleyebilirsiniz:
+
+
+{{< video https://youtu.be/mVtNxfigqGs >}}
+
+
+Eğer yukarıdaki oynatıcı çalışmazsa doğrudan [YouTube Kanalımdan](https://www.youtube.com/@acarzfr) videoya ulaşabilirsiniz.
+
+
+## PDF Dosyasını Görüntüle ve İndir
+
+Çözümünü yaptığımız bu soruların yer aldığı PDF belgesini doğrudan aşağıdan inceleyebilir ve **"Soruları İndir"** butonuyla cihazınıza kaydedebilirsiniz.
+
+
+{{< pdf BuTipSorularaDikkat.pdf width=100% height=800px button="Soruları İndir" >}}
+
+Çalışmalarınızda kolaylıklar ve başarılar dilerim! Görüş ve sorularınızı aşağıdaki yorumlar bölümünden paylaşabilirsiniz.
