@@ -1,0 +1,55 @@
+---
+title: "7'den 8'e LGS Matematik Tekrar Kampı: 100 Soru ve Cevap Anahtarı"
+date: "2026-06-09"
+categories: [Matematik, LGS, 7. Sınıf, 8. Sınıf]
+image: thumbnail.jpg
+description: "7. sınıftan 8. sınıfa geçen ve LGS'ye hazırlanan öğrenciler için özel olarak tasarlanmış, 4 ana üniteden oluşan 100 soruluk matematik tekrar kitapçığı ve PDF indirme bağlantısı."
+author: "Zafer Acar"
+html-math-method: katex
+---
+
+Merhaba sevgili öğrenciler ve değerli meslektaşlarım,
+
+7\. sınıftan 8. sınıfa geçiş, LGS (Liselere Geçiş Sistemi) hazırlık sürecinin en kritik dönemlerinden biridir. 8. sınıf matematik konularının (örneğin çarpanlar ve katlar, üslü ifadeler, doğrusal denklemler) sağlam temellere oturması, 7. sınıfın temel kazanımlarının ne kadar iyi kavrandığıyla doğrudan ilişkilidir. 
+
+Bu geçiş sürecini en verimli şekilde değerlendirmeniz ve yaz tatilinde eksiklerinizi gidermeniz amacıyla hazırladığım **"7'den 8'e 100 Soru"** matematik tekrar kitapçığını sizlerle paylaşıyorum.
+
+## Kitapçık İçeriği ve Yapısı
+
+Kitapçık, LGS matematiğinin temelini oluşturan **4 ana bölümden** oluşmakta ve her ünitede **25'er adet soru** yer almaktadır. Toplamda 100 adet çoktan seçmeli sorunun yer aldığı bu çalışmada konular şu şekilde dağıtılmıştır:
+
+1. **Cebirsel İfadeler (Soru 1 - 25):** 
+   - Katsayılar toplamı ve sabit terim hesaplama
+   - Cebirsel ifadelerde toplama, çıkarma ve çarpma işlemleri
+   - Cebir karoları ile modelleme ve geometrik alan/çevre problemleri
+   - Sayı örüntüleri ve örüntünün genel terimini bulma
+   - Günlük hayattan seçilmiş cebirsel ifade modelleme problemleri
+
+2. **Denklemler (Soru 26 - 50):**
+   - Birinci dereceden bir bilinmeyenli denklem çözme
+   - Blok kuleleri, teraziler ve sayı doğrusu modelleri üzerinden denklem kurma
+   - Yaş, kumbara, bilet kuyruğu, mum eritme, otopark kapasitesi ve taksimetre gibi klasikleşmiş ve yeni nesil denklem problemleri
+   - Üçgenlerin iç açıları ve dikdörtgenlerin çevre özellikleri gibi geometrik uygulamalar
+
+3. **Oran ve Orantı (Soru 51 - 75):**
+   - Doğru ve ters orantı kavramları
+   - Dişli çark sistemleri, harita ölçekleri ve fiziksel yay uzama problemleri
+   - Karışım oranları (limonata, un helvası, boya karışımları vb.) ve yaş orantılı paylaştırma problemleri
+   - İşçi-gün sayısı, yakıt tüketimi ve musluk doldurma gibi gerçek hayat senaryoları
+
+4. **Yüzdeler (Soru 76 - 100):**
+   - Belirli bir yüzdeyi hesaplama ve indirim/kâr-zarar/KDV/faiz problemleri
+   - Grafik okuma (daire grafiği, sütun grafiği) ve yüzde dönüşümleri
+   - Akıllı saat şarj yüzdeleri, kurutulan gıdalardaki kütle kaybı ve ikinci ürüne indirim kampanyaları gibi güncel hayat örnekleri
+
+
+
+## PDF Dosyasını Görüntüle ve İndir
+
+Kitapçığın yer aldığı PDF belgesini doğrudan aşağıdan inceleyebilir ve **"Kitapçığı İndir"** butonuyla bilgisayarınıza veya mobil cihazınıza kaydedip çıktısını alarak çalışabilirsiniz.
+
+{{< pdf 7den8e100Soru.pdf width=100% height=800px button="Kitapçığı İndir" >}}
+
+---
+
+Tüm öğrencilerimize keyifli, verimli bir yaz tatili ve LGS hazırlık yolculuğunda üstün başarılar dilerim! Görüş, öneri ve sorularınızı aşağıdaki yorumlar bölümünden benimle paylaşabilirsiniz.
