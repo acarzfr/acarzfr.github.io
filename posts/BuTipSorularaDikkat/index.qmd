@@ -1,7 +1,7 @@
 ---
 title: "Bu Tip Sorulara Dikkat! LGS Matematik"
 date: "2026-05-23"
-categories: [Matematik, LGS, EBOB, Geometri, Soru Çözümü]
+categories: [Matematik, LGS, Soru Çözümü]
 image: thumbnail.jpg
 description: "LGS Matematik hazırlığında öğrencilerin en sık hata yaptığı soru tiplerinden birini ele alıyoruz. Çözümler, püf noktaları ve video çözümü."
 author: "Zafer Acar"
