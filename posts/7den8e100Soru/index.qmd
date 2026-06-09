@@ -3,7 +3,7 @@ title: "7'den 8'e LGS Matematik Tekrar Kampı: 100 Soru ve Cevap Anahtarı"
 date: "2026-06-09"
 categories: [Matematik, LGS, 7. Sınıf, 8. Sınıf]
 image: thumbnail.jpg
-description: "7. sınıftan 8. sınıfa geçen ve LGS'ye hazırlanan öğrenciler için özel olarak tasarlanmış, 4 ana üniteden oluşan 100 soruluk matematik tekrar kitapçığı ve PDF indirme bağlantısı."
+description: "7'den  8'e geçen ve LGS'ye hazırlanan öğrenciler için özel olarak tasarlanmış, 4 ana üniteden oluşan 100 soruluk matematik tekrar kitapçığı ve PDF indirme bağlantısı."
 author: "Zafer Acar"
 html-math-method: katex
 ---
