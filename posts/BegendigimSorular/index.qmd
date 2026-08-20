@@ -1,0 +1,60 @@
+---
+title: "Beğendiğim Sorular ve Çözümleri: Yeni YouTube Kursu Yayında!"
+date: "2026-08-20"
+categories: [Matematik, Yarışma, Olimpiyat, Soru Çözümü]
+image: thumbnail.jpg
+description: "Matematik yolculuğunda ezberden uzak, derinlikli düşünmeyi ve problem çözme becerilerini geliştiren en özel soruları bir araya getirdiğim YouTube video kursu yayında!"
+author: "Zafer Acar"
+html-math-method: katex
+---
+
+Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,
+
+Matematik öğrenme ve sınavlara hazırlık sürecinde binlerce soruyla karşılaşıyoruz. Ancak bazı sorular vardır ki sadece bir konuyu ölçmekle kalmaz; bakış açınızı genişletir, strateji kurma becerinizi sınar ve matematiğin o zarif mantığını hissettirir.
+
+Uzun süredir üzerinde düşündüğüm, farklı kaynaklardan özenle ayıkladığım, **"İşte bu soru gerçekten ufuk açıcı!"** dediğim soruları bir araya getirerek özel bir **YouTube Kursu / Oynatma Listesi** hazırladım.
+
+
+## 📚 Kursta Neler Var?
+
+Bu video serisinde her bir soru titizlikle inceleniyor ve şu adımlarla çözülüyor:
+
+1. **Soruyu Anlama ve Analiz:** Soru kökünün bizden ne istediğini netleştirme.
+2. **Strateji Belirleme:** Çözüme hangi adımdan ve nasıl başlanması gerektiğini planlama.
+3. **Ayrıntılı Çözüm ve Görselleştirme:** Gerekli modellemeler, şekiller ve matematiksel işlemlerle adım adım sonuca ulaşma.
+4. **Kritik Uyarılar:** "Öğrenciler burada en çok neyi karıştırıyor?" sorusunun yanıtı ve altın değerinde ipuçları.
+
+---
+
+## 💡 Kurstan Maksimum Verim Almak İçin Nasıl Çalışmalısınız?
+
+::: {.callout-tip}
+### Tavsiye Edilen Çalışma Yöntemi
+1. **Videoyu Başlatın ve Soruyu Okuyun:** Video başladığında soruyu ekranda gördüğünüz an **videoyu durdurun**.
+2. **Kendiniz Deneyin:** Kalem-kâğıt alarak en az 3-5 dakika soruyu kendi yöntemlerinizle çözmeye çalışın.
+3. **Çözümü İzleyin:** Çözseniz bile videoyu baştan sona dikkatle izleyin; farklı bir bakış açısı veya kestirme bir yöntem yakalayabilirsiniz.
+4. **Not Alın:** Soruda kullanılan püf noktayı ve çözüm mantığını küçük bir "Matematik Not Defteri"ne kaydedin.
+:::
+
+---
+
+## 🎬 YouTube Kursuna Hemen Başlayın
+
+Aşağıdaki bağlantıdan veya video oynatıcısından kursun ilk dersine / oynatma listesine doğrudan ulaşabilirsiniz:
+
+
+{{< video https://youtu.be/d1fQsQbPjiA?si=TNyFSR1WIQcTQe1j >}}
+
+
+
+*(Yukarıdaki oynatıcıda problem yaşarsanız doğrudan [YouTube Kanalımdan](https://www.youtube.com/@acarzfr) tüm videolara ve oynatma listelerine göz atabilirsiniz.)*
+
+---
+
+## 💬 Yorumlarınız ve Sorularınız
+
+Bu kursta yer almasını istediğiniz soru tipleri, anlamakta zorlandığınız konular veya aklınıza takılan tüm sorular için aşağıdaki **yorumlar** bölümünden bana ulaşabilirsiniz. 
+
+Kanalıma abone olmayı, videolara beğeni bırakmayı ve faydalanacağını düşündüğünüz arkadaşlarınızla paylaşmayı unutmayın!
+
+Hepinize zihin açıklığı ve başarılar dilerim!
