@@ -1,0 +1,55 @@
+---
+title: "2026 AMC 8 Soru Çözümleri: 25 Sorunun Tamamı ve PDF Kitapçığı"
+date: "2026-09-01"
+categories: [Matematik, Olimpiyat, Yarışma, AMC 8, Soru Çözümü]
+image: thumbnail.jpg
+description: "2026 AMC 8 (American Mathematics Competitions) sınavındaki 25 sorunun tamamının adım adım detaylı çözümleri, YouTube video anlatımı ve PDF soru kitapçığı."
+author: "Zafer Acar"
+html-math-method: katex
+---
+
+Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,
+
+Dünya genelinde ortaokul kademesindeki öğrencilerin matematiksel düşünme, akıl yürütme ve problem çözme becerilerini ölçen en prestijli yarışmalardan biri olan **AMC 8 (American Mathematics Competitions 8)** sınavının 2026 yılı sorularını sizler için detaylı bir şekilde çözdüm ve paylaşıyorum.
+
+AMC 8; klasik formül ezberinin ötesine geçen, analitik bakış açısı, yaratıcı geometri sezgisi, sayma teknikleri ve stratejik düşünme gerektiren seçkin sorulardan oluşmaktadır.
+
+---
+
+## 🎬 2026 AMC 8 Soru Çözüm Videosu
+
+2026 AMC 8 sınavında yer alan **1'den 25'e kadar tüm soruların** ayrıntılı, adım adım ve alternatif yöntemlerle zenginleştirilmiş çözümlerini içeren videoyu aşağıdan izleyebilirsiniz:
+
+{{< video https://youtu.be/RSErpwID28E >}}
+
+*(Yukarıdaki oynatıcıda problem yaşarsanız doğrudan [YouTube Kanalımdan](https://www.youtube.com/@acarzfr) videoya ve oynatma listelerine ulaşabilirsiniz.)*
+
+---
+
+## 💡 Bu Videodan ve Kitapçıktan En Yüksek Verimi Almak İçin
+
+::: {.callout-tip}
+### Tavsiye Edilen Çalışma Yöntemi
+1. **Önce Kendiniz Deneyin:** Sorunun çözümünü izlemeden önce videoyu durdurun veya aşağıdaki PDF'ten soruyu açıp 2-3 dakika kendi yöntemlerinizle uğraşın.
+2. **Çözümü Dikkatle Takip Edin:** Soruyu doğru çözmüş olsanız dahi videodaki alternatif kısa yolları ve soruya yaklaşım mantığını izleyin.
+3. **Püf Noktalarını Not Alın:** Soruda kullanılan stratejiyi ve pratik kuralları bir matematik not defterine not edin.
+4. **Zaman Yönetimi:** AMC 8 sınavında 25 soru için 40 dakika verildiğini unutmayın; pratik yaptıkça işlem hızınızı ve karar alma sürenizi optimize etmeye çalışın.
+:::
+
+---
+
+## 📄 PDF Kitapçığını Görüntüle ve İndir
+
+2026 AMC 8 sınav sorularının ve çözümlerinin yer aldığı PDF belgesini doğrudan aşağıdan inceleyebilir ve **"AMC 8 Kitapçığını İndir"** butonuna tıklayarak cihazınıza kaydedebilirsiniz.
+
+{{< pdf 2026amc8.pdf width=100% height=800px button="AMC 8 Kitapçığını İndir" >}}
+
+---
+
+## 💬 Yorumlar ve Geri Bildirimler
+
+Soruların çözümleriyle ilgili takıldığınız noktaları, farklı çözüm önerilerinizi veya merak ettiğiniz diğer yarışma sorularını aşağıdaki **yorumlar** bölümünden iletebilirsiniz.
+
+Videoyu beğenmeyi, kanala abone olmayı ve bu kaynağı matematik sever arkadaşlarınızla paylaşmayı unutmayın!
+
+Tüm öğrencilerimize matematik yolculuklarında ve yarışmalarda başarılar dilerim!
