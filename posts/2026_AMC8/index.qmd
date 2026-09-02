@@ -40,7 +40,7 @@ AMC 8; klasik formül ezberinin ötesine geçen, analitik bakış açısı, yara
 
 ## 📄 PDF Kitapçığını Görüntüle ve İndir
 
-2026 AMC 8 sınav sorularının ve çözümlerinin yer aldığı PDF belgesini doğrudan aşağıdan inceleyebilir ve **"AMC 8 Kitapçığını İndir"** butonuna tıklayarak cihazınıza kaydedebilirsiniz.
+2026 AMC 8 sınav sorularının yer aldığı PDF belgesini doğrudan aşağıdan inceleyebilir ve **"AMC 8 Kitapçığını İndir"** butonuna tıklayarak cihazınıza kaydedebilirsiniz.
 
 {{< pdf 2026amc8.pdf width=100% height=800px button="AMC 8 Kitapçığını İndir" >}}
 
