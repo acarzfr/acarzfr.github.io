@@ -15,8 +15,6 @@ website:
         href: about.qmd
       - icon: book
         href: https://acarzfr.github.io/books.html
-      - icon: youtube
-        href: https://www.youtube.com/@acarzfr
       - icon: instagram
         href: https://www.instagram.com/acar_zfr/
       - icon: github

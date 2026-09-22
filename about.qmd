@@ -5,9 +5,6 @@ comments: false
 about:
   template: jolla
   links:
-      - icon: youtube
-        text: YouTube
-        href: https://www.youtube.com/@acarzfr
       - icon: github
         text: GitHub
         href: https://github.com/acarzfr/
