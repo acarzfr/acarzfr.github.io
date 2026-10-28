@@ -1,0 +1,135 @@
+/*-- scss:defaults --*/
+
+// Beamer Sunumu Renk Paleti Referansı
+// canvasBg: #F6F0EB | primaryText: #23373B | accentRust: #B58666
+// maviRenk: #1E5B7A | ikincilRenk: #0F766E | subtleLine: #D5D1C9
+// boxBg: #E8EDEA | boxBorder: #CBD8D3 | cardBgWarm: #EFEAE3
+
+$body-bg: #ffffff;
+$body-color: #23373B;
+$text-muted: #748782;
+
+$primary: #1E5B7A;
+$secondary: #748782;
+$success: #2E7D32;
+$info: #1E5B7A;
+$warning: #B45309;
+$danger: #B58666;
+
+// Üst ve Alt Bar Renkleri
+$navbar-bg: #F6F0EB;
+$navbar-fg: #23373B;
+$navbar-hl: #B58666;
+
+$footer-bg: #F6F0EB;
+$footer-fg: #23373B;
+
+// Bağlantı Renkleri
+$link-color: #1E5B7A;
+$link-hover-color: #B58666;
+
+$border-color: #D5D1C9;
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: #23373B;
+}
+
+// Genel Butonlar (.btn-primary, .btn-outline-primary)
+.btn-primary {
+  background-color: #1E5B7A;
+  border-color: #1E5B7A;
+  color: #ffffff;
+  transition: all 0.25s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #B58666;
+    border-color: #B58666;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(181, 134, 102, 0.3);
+  }
+}
+
+.btn-outline-primary {
+  color: #1E5B7A;
+  border-color: #1E5B7A;
+  transition: all 0.25s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #1E5B7A;
+    border-color: #1E5B7A;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(30, 91, 122, 0.25);
+  }
+}
+
+// Hakkımda Sayfası Butonları (.about-link)
+.about-links .about-link,
+.about-link {
+  background-color: #F6F0EB !important;
+  color: #23373B !important;
+  border: 1px solid #CBD8D3 !important;
+  padding: 0.5em 1em !important;
+  border-radius: 6px !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  text-decoration: none !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover, &:focus {
+    background-color: #1E5B7A !important;
+    border-color: #1E5B7A !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(30, 91, 122, 0.25);
+  }
+}
+
+// Başa Dön Butonu
+#quarto-back-to-top {
+  background-color: #F6F0EB;
+  color: #23373B;
+  border: 1px solid #CBD8D3;
+  transition: all 0.25s ease;
+
+  &:hover {
+    background-color: #B58666;
+    border-color: #B58666;
+    color: #ffffff;
+  }
+}
+
+// Quarto Blog / Liste Kategorileri
+.quarto-category {
+  background-color: #E8EDEA !important;
+  color: #23373B !important;
+  border: 1px solid #CBD8D3 !important;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #B58666 !important;
+    color: #ffffff !important;
+    border-color: #B58666 !important;
+    box-shadow: 0 2px 6px rgba(181, 134, 102, 0.25);
+  }
+}
+
+// Üst Menü Bağlantı Hover Durumu
+.navbar-nav .nav-link {
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #B58666 !important;
+  }
+}
+
+// Alıntı Kutuları (Bloklar)
+blockquote {
+  border-left: 3px solid #B58666;
+  background-color: #EFEAE3;
+  color: #23373B;
+  padding: 0.6rem 1rem;
+  border-radius: 0 4px 4px 0;
+}

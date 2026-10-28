@@ -8,15 +8,18 @@ website:
   description: "Zafer Acar'ın kişisel internet sitesi"
   site-url: https://acarzfr.github.io
   repo-url: https://github.com/acarzfr/acarzfr.github.io
-  title: "Zafer Acar"
+  title: "Acar Matematik"
+  favicon: style/acarmatematik.png
   navbar:
+    logo: style/acarmatematik.png
+    background: "#F6F0EB"
     right:
       - text: "Hakkımda"
         href: about.qmd
       - icon: book
         href: https://acarzfr.github.io/books.html
       - icon: instagram
-        href: https://www.instagram.com/acar_zfr/
+        href: https://www.instagram.com/acarmatematik/
       - icon: github
         href: https://github.com/acarzfr/
       - icon: rss
@@ -27,26 +30,25 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    center:
-      - text: "Burası Quarto ile yapıldı."
-        href: https://www.quarto.org
+    background: "#F6F0EB"
+    left: "© 2026 Zafer Acar • Acar Matematik"
+    right: "Matematik Ders Notları ve Paylaşımlar"
 
-      
-  
 format:
   html:
     theme:
       light:
         - cosmo
-        
+        - style/light.scss
       dark:
         - cyborg
+        - style/dark.scss
         
     css: style/styles.css
     include-in-header: style/preamble.html
-    mainfont: "Inter"
+    mainfont: "Jura"
+    monofont: "Source Code Pro"
     lang: tr
-
 
 comments:
     giscus: 
@@ -60,4 +62,4 @@ comments:
       theme: 
         dark: dark_tritanopia
         light: light_tritanopia
-      language: tr 
+      language: tr

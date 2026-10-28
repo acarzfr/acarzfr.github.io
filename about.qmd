@@ -1,6 +1,6 @@
 ---
 title: "Zafer Acar"
-image: acarzfr.png
+image: image.png
 comments: false
 about:
   template: jolla
@@ -10,7 +10,7 @@ about:
         href: https://github.com/acarzfr/
       - icon: instagram
         text: Instagram
-        href: https://www.instagram.com/acar_zfr/
+        href: https://www.instagram.com/acarmatematik/
       - icon: envelope
         text: Eposta
         href: mailto:acarzfr@gmail.com

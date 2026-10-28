@@ -1,5 +1,11 @@
 /* css styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, .navbar {
+  font-family: 'Jura', sans-serif;
+}
+
 /* Genel KaTeX boyutu (çoğunlukla satır içi formülleri etkiler) */
 .katex {
   font-size: 1.1em;

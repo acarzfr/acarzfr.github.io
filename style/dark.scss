@@ -1,0 +1,107 @@
+/*-- scss:defaults --*/
+
+// Beamer Sunumu Referanslı Koyu Tema Renkleri
+// taramaRengi: #93C5FD | accentRust: #B58666 | canvasBg: #F6F0EB
+
+$primary: #93C5FD;
+$link-color: #93C5FD;
+$link-hover-color: #F6F0EB;
+
+/*-- scss:rules --*/
+
+// Genel Butonlar (Koyu Tema)
+.btn-primary {
+  background-color: #1E5B7A;
+  border-color: #1E5B7A;
+  color: #ffffff;
+  transition: all 0.25s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #93C5FD;
+    border-color: #93C5FD;
+    color: #0F172A;
+    box-shadow: 0 4px 12px rgba(147, 197, 253, 0.35);
+  }
+}
+
+.btn-outline-primary {
+  color: #93C5FD;
+  border-color: #93C5FD;
+  transition: all 0.25s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #93C5FD;
+    border-color: #93C5FD;
+    color: #0F172A;
+    box-shadow: 0 4px 12px rgba(147, 197, 253, 0.35);
+  }
+}
+
+// Hakkımda Sayfası Butonları (Koyu Tema)
+.about-links .about-link,
+.about-link {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  color: #E8EDEA !important;
+  border: 1px solid rgba(203, 216, 211, 0.3) !important;
+  padding: 0.5em 1em !important;
+  border-radius: 6px !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  text-decoration: none !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover, &:focus {
+    background-color: #93C5FD !important;
+    border-color: #93C5FD !important;
+    color: #0F172A !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(147, 197, 253, 0.3);
+  }
+}
+
+// Başa Dön Butonu (Koyu Tema)
+#quarto-back-to-top {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #E8EDEA;
+  border: 1px solid rgba(203, 216, 211, 0.25);
+  transition: all 0.25s ease;
+
+  &:hover {
+    background-color: #93C5FD;
+    border-color: #93C5FD;
+    color: #0F172A;
+  }
+}
+
+// Kategori Butonları (Koyu Tema)
+.quarto-category {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: #E8EDEA !important;
+  border: 1px solid rgba(203, 216, 211, 0.3) !important;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #B58666 !important;
+    color: #ffffff !important;
+    border-color: #B58666 !important;
+    box-shadow: 0 2px 8px rgba(181, 134, 102, 0.35);
+  }
+}
+
+// Üst Menü Bağlantı Hover (Koyu Tema)
+.navbar-nav .nav-link {
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #93C5FD !important;
+  }
+}
+
+// Alıntı Blokları (Koyu Tema)
+blockquote {
+  border-left: 3px solid #B58666;
+  background-color: rgba(239, 234, 227, 0.08);
+  padding: 0.6rem 1rem;
+  border-radius: 0 4px 4px 0;
+}
