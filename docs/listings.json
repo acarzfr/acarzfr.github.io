@@ -1,6 +1,8 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/lgs_deneme_01/index.html"
+    ]
   }
 ]

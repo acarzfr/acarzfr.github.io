@@ -1,0 +1,86 @@
+---
+title: "8. Sınıf LGS Matematik Deneme Sınavı – 01 (Çözümlü ve Tuzak Analizli)"
+date: "2026-11-17"
+categories: [Matematik, LGS, 8. Sınıf, Deneme Sınavı]
+image: thumbnail.png
+description: "LGS (8. sınıf) hazırlık sürecine özel Çarpanlar ve Katlar, Üslü İfadeler ve Kareköklü İfadeler konularını kapsayan 20 soruluk Matematik Deneme Sınavı 01 ve ayrıntılı tuzak analizli çözüm kitapçığı."
+author: "Zafer Acar"
+html-math-method: katex
+toc: true
+---
+
+Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,
+
+LGS (Liselere Geçiş Sistemi) hazırlık sürecinde öğrencilerin yalnızca konuyu bilmesi değil, aynı zamanda **yeni nesil sorulardaki çeldirici tuzakları fark edebilmesi** ve **zamanı verimli yönetebilmesi** büyük önem taşır.
+
+Bu amaçla hazırladığım **8. Sınıf Sayısal Bölüm – LGS Matematik Deneme Sınavı 01 (A Kitapçığı)** çalışmasını, hem **sınav kitapçığı** hem de her sorunun adım adım çözümünü ve öğrencilerin en sık düştüğü hataları gösteren **Tuzak Analizli Çözüm Kitapçığı** ile birlikte sizlerle paylaşıyorum.
+
+---
+
+## Sınav Bilgileri ve Kapsam
+
+Deneme sınavı, 8. sınıf matematiğinin ilk dönem temel ünitelerinden oluşan **20 adet çoktan seçmeli yeni nesil sorudan** oluşmaktadır:
+
+- **Soru Sayısı:** 20 Soru (A Kitapçığı)
+- **Önerilen Süre:** 40 Dakika
+- **Değerlendirme:** LGS puanlama sistemine uygun olarak **3 yanlış cevabın 1 doğru cevabı götürdüğü** unutulmamalıdır.
+
+### Konu Dağılımı
+
+1. **Çarpanlar ve Katlar (Soru 1–8, 10):**
+   - Aralarında asal sayılar ve pozitif çarpan sayısı özellikleri (tam kare sayılar)
+   - Asal çarpanlara ayırma ve pozitif tam sayı çarpanlarının simetrik sıralanması
+   - Günlük hayat kurgulu EBOB–EKOK problemleri (ring sefer süreleri, çıta kesme/ekleme, kat planı çevre hesabı, paketleme) ve asal çarpan algoritması
+2. **Üslü İfadeler (Soru 9, 11–17):**
+   - Negatif üs, parantez ve işaret kuralları
+   - Çok büyük ve çok küçük sayıların bilimsel gösterimi ile birim dönüşümleri
+   - Üslü ifadelerde alan–çevre ilişkileri, ondalık gösterimlerin çözümlenmesi ve en büyük/en küçük değer karşılaştırmaları
+3. **Kareköklü İfadeler (Soru 18–20):**
+   - Tam kare ifadelerle denge (sihirli kare) tablosu ve alan–kenar ilişkisi
+   - $a\sqrt{b}$ biçimindeki kareköklü bir sayının hangi iki tam sayı arasında ve hangi sınıra daha yakın olduğunu sayı doğrusu üzerinde belirleme
+
+---
+
+::: {.callout-tip}
+### Sınavdan En Yüksek Verimi Almak İçin Öneriler
+1. **Gerçek Sınav Koşulu Oluşturun:** Çözüm kitapçığına bakmadan önce kendinize **40 dakika** süre tutarak yalnızca ilk kitapçığı (`deneme1.pdf`) çözün.
+2. **Önce Cevap Anahtarından Kontrol Edin:** Süreniz dolduğunda aşağıdaki hızlı cevap anahtarıyla doğru, yanlış ve boşlarınızı belirleyin.
+3. **Tuzak Analizini Mutlaka İnceleyin:** Yanlış yaptığınız veya boş bıraktığınız sorularda yalnızca doğru çözümü değil, **"Tuzak Analizi"** bölümünü de okuyarak hangi çeldiriciye düştüğünüzü görün. Doğru çözdüğünüz sorularda bile daha hızlı stratejiler keşfedebilirsiniz.
+:::
+
+---
+
+## 1. LGS Deneme Sınavı 01 – Soru Kitapçığı
+
+Sınavı doğrudan aşağıdan görüntüleyebilir veya **"Deneme Sınavını İndir (PDF)"** butonuna tıklayarak cihazınıza kaydedip çıktısını alabilirsiniz.
+
+{{< pdf deneme1.pdf width=100% height=800px button="Deneme Sınavını İndir (PDF)" >}}
+
+---
+
+## Hızlı Cevap Anahtarı
+
+::: {.callout-note collapse="true"}
+### Cevap Anahtarını Göster / Gizle
+
+| Soru | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Cevap** | **C** | **B** | **D** | **C** | **B** | **C** | **D** | **C** | **B** | **C** |
+
+| Soru | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Cevap** | **C** | **C** | **B** | **A** | **D** | **D** | **C** | **B** | **B** | **D** |
+
+:::
+
+---
+
+## 2. Ayrıntılı Çözümlü ve Tuzak Analizli Kitapçık
+
+Sınavı tamamladıktan sonra tüm 20 sorunun adım adım çözümlerini ve her şıkkın arkasındaki **çeldirici/tuzak analizlerini** aşağıdaki kitapçıktan inceleyebilir veya PDF olarak indirebilirsiniz.
+
+{{< pdf deneme1_cozumlu.pdf width=100% height=800px button="Çözümlü Kitapçığı İndir (PDF)" >}}
+
+---
+
+Tüm öğrencilerimize verimli çalışmalar ve LGS yolculuğunda başarılar dilerim! Sorularla ilgili düşüncelerinizi ve netlerinizi aşağıdaki **yorumlar** bölümünden paylaşabilirsiniz.
