@@ -1,50 +1,105 @@
 /*-- scss:defaults --*/
 
-// Beamer Sunumu Referanslı Koyu Tema Renkleri
-// taramaRengi: #93C5FD | accentRust: #B58666 | canvasBg: #F6F0EB
+// LaTeX TikZ Kapak Paleti — Koyu Tema Uyarlaması (Yeşilsiz)
+// RoyalBlue (parlak): #4DB5FF | Dandelion: #FDBC42
+// orange: #FF8000 | OrangeRed: #F43F5E
 
-$primary: #93C5FD;
-$link-color: #93C5FD;
-$link-hover-color: #F6F0EB;
+$body-bg: #12151C;
+$body-color: #E5E7EB;
+$text-muted: #9CA3AF;
+
+$primary: #4DB5FF;
+$secondary: #9CA3AF;
+$success: #4DB5FF;
+$info: #4DB5FF;
+$warning: #FDBC42;
+$danger: #F43F5E;
+
+$navbar-bg: #191D26;
+$navbar-fg: #F3F4F6;
+$navbar-hl: #FDBC42;
+
+$footer-bg: #191D26;
+$footer-fg: #D1D5DB;
+
+$link-color: #4DB5FF;
+$link-hover-color: #FDBC42;
+
+$border-color: #2B3140;
 
 /*-- scss:rules --*/
 
+.navbar {
+  background-color: #191D26 !important;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #0071BC 0%, #4DB5FF 28%, #E63946 58%, #FF8000 80%, #FDBC42 100%) 1;
+}
+
+.navbar-logo {
+  background-color: #FAFAFA;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
+
+.nav-footer {
+  background-color: #191D26 !important;
+  color: #D1D5DB !important;
+  border-top: 1px solid #2B3140;
+}
+
+.navbar-brand,
+.navbar-title,
+.navbar-nav .nav-link,
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: #F3F4F6 !important;
+  transition: color 0.2s ease;
+
+  &:hover, &:focus {
+    color: #FDBC42 !important;
+  }
+}
+
+.navbar-nav .nav-link.active {
+  color: #4DB5FF !important;
+  font-weight: 600;
+}
+
 // Genel Butonlar (Koyu Tema)
 .btn-primary {
-  background-color: #1E5B7A;
-  border-color: #1E5B7A;
+  background-color: #0071BC;
+  border-color: #0071BC;
   color: #ffffff;
   transition: all 0.25s ease-in-out;
 
   &:hover, &:focus {
-    background-color: #93C5FD;
-    border-color: #93C5FD;
-    color: #0F172A;
-    box-shadow: 0 4px 12px rgba(147, 197, 253, 0.35);
+    background-color: #FF8000;
+    border-color: #FF8000;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(255, 128, 0, 0.35);
   }
 }
 
 .btn-outline-primary {
-  color: #93C5FD;
-  border-color: #93C5FD;
+  color: #FDBC42;
+  border-color: #FDBC42;
   transition: all 0.25s ease-in-out;
 
   &:hover, &:focus {
-    background-color: #93C5FD;
-    border-color: #93C5FD;
-    color: #0F172A;
-    box-shadow: 0 4px 12px rgba(147, 197, 253, 0.35);
+    background-color: #FDBC42;
+    border-color: #FDBC42;
+    color: #12151C;
+    box-shadow: 0 4px 12px rgba(253, 188, 66, 0.35);
   }
 }
 
 // Hakkımda Sayfası Butonları (Koyu Tema)
 .about-links .about-link,
 .about-link {
-  background-color: rgba(255, 255, 255, 0.06) !important;
-  color: #E8EDEA !important;
-  border: 1px solid rgba(203, 216, 211, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: #F3F4F6 !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
   padding: 0.5em 1em !important;
-  border-radius: 6px !important;
+  border-radius: 8px !important;
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
@@ -52,56 +107,55 @@ $link-hover-color: #F6F0EB;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover, &:focus {
-    background-color: #93C5FD !important;
-    border-color: #93C5FD !important;
-    color: #0F172A !important;
+    background: linear-gradient(135deg, #FF8000, #FDBC42) !important;
+    border-color: #FDBC42 !important;
+    color: #12151C !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(147, 197, 253, 0.3);
+    box-shadow: 0 6px 16px rgba(255, 128, 0, 0.32);
   }
 }
 
 // Başa Dön Butonu (Koyu Tema)
 #quarto-back-to-top {
-  background-color: rgba(255, 255, 255, 0.08);
-  color: #E8EDEA;
-  border: 1px solid rgba(203, 216, 211, 0.25);
+  background-color: #191D26;
+  color: #F3F4F6;
+  border: 1px solid #2B3140;
   transition: all 0.25s ease;
 
   &:hover {
-    background-color: #93C5FD;
-    border-color: #93C5FD;
-    color: #0F172A;
+    background-color: #FF8000;
+    border-color: #FF8000;
+    color: #ffffff;
   }
 }
 
 // Kategori Butonları (Koyu Tema)
 .quarto-category {
   background-color: rgba(255, 255, 255, 0.05) !important;
-  color: #E8EDEA !important;
-  border: 1px solid rgba(203, 216, 211, 0.3) !important;
+  color: #E5E7EB !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    background-color: #B58666 !important;
+    background-color: #FF8000 !important;
     color: #ffffff !important;
-    border-color: #B58666 !important;
-    box-shadow: 0 2px 8px rgba(181, 134, 102, 0.35);
-  }
-}
-
-// Üst Menü Bağlantı Hover (Koyu Tema)
-.navbar-nav .nav-link {
-  transition: color 0.2s ease;
-
-  &:hover {
-    color: #93C5FD !important;
+    border-color: #FF8000 !important;
+    box-shadow: 0 2px 10px rgba(255, 128, 0, 0.35);
   }
 }
 
 // Alıntı Blokları (Koyu Tema)
 blockquote {
-  border-left: 3px solid #B58666;
-  background-color: rgba(239, 234, 227, 0.08);
+  border-left: 3px solid #FDBC42;
+  background-color: rgba(253, 188, 66, 0.07);
   padding: 0.6rem 1rem;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.callout-tip {
+  border-left-color: #FDBC42 !important;
+}
+
+.callout-note {
+  border-left-color: #4DB5FF !important;
 }

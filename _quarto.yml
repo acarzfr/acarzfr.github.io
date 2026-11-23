@@ -12,7 +12,6 @@ website:
   favicon: style/acarmatematik.png
   navbar:
     logo: style/acarmatematik.png
-    background: "#F6F0EB"
     right:
       - text: "Hakkımda"
         href: about.qmd
@@ -30,7 +29,6 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    background: "#F6F0EB"
     left: "© 2026 Zafer Acar • Acar Matematik"
     right: "Matematik Ders Notları ve Paylaşımlar"
 
