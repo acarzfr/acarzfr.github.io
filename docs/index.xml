@@ -10,7 +10,207 @@
 <atom:link href="https://acarzfr.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Zafer Acar&#39;ın kişisel internet sitesi</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Mon, 16 Nov 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>8. Sınıf LGS Matematik Deneme Sınavı – 02 (Çözümlü ve Tuzak Analizli)</title>
+  <dc:creator>Zafer Acar</dc:creator>
+  <link>https://acarzfr.github.io/posts/lgs_deneme_02/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,</p>
+<p>LGS Matematik Deneme Sınavları serimizin ikinci çalışması olan <strong>8. Sınıf Sayısal Bölüm – LGS Matematik Deneme Sınavı 02 (A Kitapçığı)</strong> yayında!</p>
+<p>Bu denemede özellikle <strong>Kareköklü İfadeler ve Gerçek Sayılar</strong> ağırlığı artırılarak, <strong>Çarpanlar ve Katlar</strong> ile <strong>Üslü İfadeler</strong> kazanımlarını birleştiren yeni nesil sorulara yer verildi. İlk denemede olduğu gibi, sınav kitapçığının yanında her sorunun adım adım çözümünü ve çeldirici şıkların arkasındaki tipik öğrenci hatalarını gösteren <strong>Ayrıntılı Çözümlü &amp; Tuzak Analizli Kitapçık</strong> da paylaşılıyor.</p>
+<hr>
+<section id="sınav-bilgileri-ve-kapsam" class="level2">
+<h2 class="anchored" data-anchor-id="sınav-bilgileri-ve-kapsam">Sınav Bilgileri ve Kapsam</h2>
+<p>Deneme sınavı, 8. sınıf matematiğinin ilk dönem kazanımlarını ölçen <strong>20 adet çoktan seçmeli yeni nesil sorudan</strong> oluşmaktadır:</p>
+<ul>
+<li><strong>Soru Sayısı:</strong> 20 Soru (A Kitapçığı)</li>
+<li><strong>Önerilen Süre:</strong> 40 Dakika</li>
+<li><strong>Değerlendirme:</strong> LGS kurallarına uygun olarak <strong>3 yanlış cevabın 1 doğru cevabı götürdüğü</strong> unutulmamalıdır.</li>
+</ul>
+<section id="konu-dağılımı" class="level3">
+<h3 class="anchored" data-anchor-id="konu-dağılımı">Konu Dağılımı</h3>
+<ol type="1">
+<li><strong>Çarpanlar ve Katlar (Soru 1, 2, 4, 8, 13, 14, 16):</strong>
+<ul>
+<li>Ortak çarpan parantezi, asal çarpanlar ve farklı asal sayılarla alan denklemleri</li>
+<li>Pozitif tam sayı bölenleri ile düzgün çokgen oluşturma koşulları</li>
+<li>Aralarında asallıkta minimum toplam stratejisi (raylı ulaşım hatları)</li>
+<li>Çift koşullu EKOK, EBOB ile kare mozaik kaplama (iç bölge–kenar ayrımı) ve paketleme/kalan problemleri</li>
+</ul></li>
+<li><strong>Üslü İfadeler (Soru 5, 6, 7, 9, 11, 17, 19):</strong>
+<ul>
+<li>Negatif üs, parantez içi/dışı işaret kuralları ve denk üslü ifadeler</li>
+<li><img src="https://latex.codecogs.com/png.latex?2%5Ek"> birim fiyat optimizasyonu, üstel büyüme örüntüsü (fiber optik ağ) ve periyodik döngüde kalan analizi</li>
+<li>Bilimsel gösterimle veri boyutu dönüşümü (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7BMB%7D%20%5Cto%20%5Ctext%7BKB%7D">), <img src="https://latex.codecogs.com/png.latex?10%5En"> katsayısıyla karşılaştırma ve ondalık gösterim çözümleme</li>
+</ul></li>
+<li><strong>Kareköklü İfadeler ve Gerçek Sayılar (Soru 3, 10, 12, 15, 18, 20):</strong>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?a%5Csqrt%7Bb%7D"> dönüşümü, dört işlemle tam sayı elde etme ve en küçük <img src="https://latex.codecogs.com/png.latex?a%20+%20b"> toplamını bulma</li>
+<li>Kareköklü sayıların değer aralığını belirleme (ısı yalıtım paneli) ve tam kare sayı taraması</li>
+<li>İrrasyonel sayıların bölümü (rasyonel–doğal sayı ayrımı) ve kareköklü ifadelerle çevre–alan ilişkisi</li>
+</ul></li>
+</ol>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">İpucu</span>Sınavdan En Yüksek Verimi Almak İçin Öneriler
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Gerçek Sınav Koşulu Oluşturun:</strong> Çözüm kitapçığını açmadan önce <strong>40 dakika</strong> süre tutarak yalnızca soru kitapçığını (<code>deneme2.pdf</code>) çözün.</li>
+<li><strong>Önce Cevap Anahtarından Kontrol Edin:</strong> Süreniz dolduğunda aşağıdaki açılır cevap anahtarıyla doğru, yanlış ve boşlarınızı belirleyin.</li>
+<li><strong>Tuzak Analizini Mutlaka Okuyun:</strong> Yanlış yaptığınız veya tereddüt ettiğiniz sorularda <strong>“Tuzak Analizi”</strong> notlarını inceleyerek hangi çeldiriciye yakalandığınızı tespit edin.</li>
+</ol>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="lgs-deneme-sınavı-02-soru-kitapçığı" class="level2">
+<h2 class="anchored" data-anchor-id="lgs-deneme-sınavı-02-soru-kitapçığı">1. LGS Deneme Sınavı 02 – Soru Kitapçığı</h2>
+<p>Sınavı doğrudan aşağıdan inceleyebilir veya <strong>“Deneme Sınavını İndir (PDF)”</strong> butonuna tıklayarak cihazınıza kaydedip çıktısını alabilirsiniz.</p>
+<p></p><div><object data="deneme2.pdf" type="application/pdf" width="100%" height="800px"><a href="deneme2.pdf" download="">Download PDF file.</a></object><br><a href="deneme2.pdf" download="" style="display:inline-block; padding:10px 18px; background-color:#007acc; color:white; font-size:15px; border:none; border-radius:6px; cursor:pointer; text-decoration:none; transition:background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#005fa3';" onmouseout="this.style.backgroundColor='#007acc';">Deneme Sınavını İndir (PDF)</a></div><p></p>
+<hr>
+</section>
+<section id="hızlı-cevap-anahtarı" class="level2">
+<h2 class="anchored" data-anchor-id="hızlı-cevap-anahtarı">Hızlı Cevap Anahtarı</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Not</span>Cevap Anahtarını Göster / Gizle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+<th style="text-align: center;">7</th>
+<th style="text-align: center;">8</th>
+<th style="text-align: center;">9</th>
+<th style="text-align: center;">10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">11</th>
+<th style="text-align: center;">12</th>
+<th style="text-align: center;">13</th>
+<th style="text-align: center;">14</th>
+<th style="text-align: center;">15</th>
+<th style="text-align: center;">16</th>
+<th style="text-align: center;">17</th>
+<th style="text-align: center;">18</th>
+<th style="text-align: center;">19</th>
+<th style="text-align: center;">20</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="ayrıntılı-çözümlü-ve-tuzak-analizli-kitapçık" class="level2">
+<h2 class="anchored" data-anchor-id="ayrıntılı-çözümlü-ve-tuzak-analizli-kitapçık">2. Ayrıntılı Çözümlü ve Tuzak Analizli Kitapçık</h2>
+<p>Sınavı tamamladıktan sonra tüm 20 sorunun adım adım çözümlerini ve çeldirici analizlerini aşağıdaki kitapçıktan inceleyebilir veya PDF olarak indirebilirsiniz.</p>
+<p></p><div><object data="deneme2_cozumlu.pdf" type="application/pdf" width="100%" height="800px"><a href="deneme2_cozumlu.pdf" download="">Download PDF file.</a></object><br><a href="deneme2_cozumlu.pdf" download="" style="display:inline-block; padding:10px 18px; background-color:#007acc; color:white; font-size:15px; border:none; border-radius:6px; cursor:pointer; text-decoration:none; transition:background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#005fa3';" onmouseout="this.style.backgroundColor='#007acc';">Çözümlü Kitapçığı İndir (PDF)</a></div><p></p>
+<hr>
+<p>Henüz çözmediyseniz <a href="../../posts/lgs_deneme_01/index.html">LGS Matematik Deneme Sınavı – 01</a> çalışmasına da göz atabilirsiniz. Tüm öğrencilerimize verimli çalışmalar ve LGS yolculuğunda başarılar dilerim! Görüş ve netlerinizi aşağıdaki <strong>yorumlar</strong> bölümünden paylaşabilirsiniz.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Başa dön</a> ]]></description>
+  <category>Matematik</category>
+  <category>LGS</category>
+  <category>8. Sınıf</category>
+  <category>Deneme Sınavı</category>
+  <guid>https://acarzfr.github.io/posts/lgs_deneme_02/</guid>
+  <pubDate>Sun, 22 Nov 2026 21:00:00 GMT</pubDate>
+  <media:content url="https://acarzfr.github.io/posts/lgs_deneme_02/thumbnail.png" medium="image" type="image/png" height="204" width="144"/>
+</item>
 <item>
   <title>8. Sınıf LGS Matematik Deneme Sınavı – 01 (Çözümlü ve Tuzak Analizli)</title>
   <dc:creator>Zafer Acar</dc:creator>

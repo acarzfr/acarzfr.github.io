@@ -1,0 +1,88 @@
+---
+title: "8. Sınıf LGS Matematik Deneme Sınavı – 02 (Çözümlü ve Tuzak Analizli)"
+date: "2026-11-23"
+categories: [Matematik, LGS, 8. Sınıf, Deneme Sınavı]
+image: thumbnail.png
+description: "LGS (8. sınıf) hazırlık sürecine özel Çarpanlar ve Katlar, Üslü İfadeler ve Kareköklü İfadeler konularını kapsayan 20 soruluk Matematik Deneme Sınavı 02 ile ayrıntılı çözümlü ve tuzak analizli kitapçığı."
+author: "Zafer Acar"
+html-math-method: katex
+toc: true
+---
+
+Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,
+
+LGS Matematik Deneme Sınavları serimizin ikinci çalışması olan **8. Sınıf Sayısal Bölüm – LGS Matematik Deneme Sınavı 02 (A Kitapçığı)** yayında!
+
+Bu denemede özellikle **Kareköklü İfadeler ve Gerçek Sayılar** ağırlığı artırılarak, **Çarpanlar ve Katlar** ile **Üslü İfadeler** kazanımlarını birleştiren yeni nesil sorulara yer verildi. İlk denemede olduğu gibi, sınav kitapçığının yanında her sorunun adım adım çözümünü ve çeldirici şıkların arkasındaki tipik öğrenci hatalarını gösteren **Ayrıntılı Çözümlü & Tuzak Analizli Kitapçık** da paylaşılıyor.
+
+---
+
+## Sınav Bilgileri ve Kapsam
+
+Deneme sınavı, 8. sınıf matematiğinin ilk dönem kazanımlarını ölçen **20 adet çoktan seçmeli yeni nesil sorudan** oluşmaktadır:
+
+- **Soru Sayısı:** 20 Soru (A Kitapçığı)
+- **Önerilen Süre:** 40 Dakika
+- **Değerlendirme:** LGS kurallarına uygun olarak **3 yanlış cevabın 1 doğru cevabı götürdüğü** unutulmamalıdır.
+
+### Konu Dağılımı
+
+1. **Çarpanlar ve Katlar (Soru 1, 2, 4, 8, 13, 14, 16):**
+   - Ortak çarpan parantezi, asal çarpanlar ve farklı asal sayılarla alan denklemleri
+   - Pozitif tam sayı bölenleri ile düzgün çokgen oluşturma koşulları
+   - Aralarında asallıkta minimum toplam stratejisi (raylı ulaşım hatları)
+   - Çift koşullu EKOK, EBOB ile kare mozaik kaplama (iç bölge–kenar ayrımı) ve paketleme/kalan problemleri
+2. **Üslü İfadeler (Soru 5, 6, 7, 9, 11, 17, 19):**
+   - Negatif üs, parantez içi/dışı işaret kuralları ve denk üslü ifadeler
+   - $2^k$ birim fiyat optimizasyonu, üstel büyüme örüntüsü (fiber optik ağ) ve periyodik döngüde kalan analizi
+   - Bilimsel gösterimle veri boyutu dönüşümü ($\text{MB} \to \text{KB}$), $10^n$ katsayısıyla karşılaştırma ve ondalık gösterim çözümleme
+3. **Kareköklü İfadeler ve Gerçek Sayılar (Soru 3, 10, 12, 15, 18, 20):**
+   - $a\sqrt{b}$ dönüşümü, dört işlemle tam sayı elde etme ve en küçük $a + b$ toplamını bulma
+   - Kareköklü sayıların değer aralığını belirleme (ısı yalıtım paneli) ve tam kare sayı taraması
+   - İrrasyonel sayıların bölümü (rasyonel–doğal sayı ayrımı) ve kareköklü ifadelerle çevre–alan ilişkisi
+
+---
+
+::: {.callout-tip}
+### Sınavdan En Yüksek Verimi Almak İçin Öneriler
+1. **Gerçek Sınav Koşulu Oluşturun:** Çözüm kitapçığını açmadan önce **40 dakika** süre tutarak yalnızca soru kitapçığını (`deneme2.pdf`) çözün.
+2. **Önce Cevap Anahtarından Kontrol Edin:** Süreniz dolduğunda aşağıdaki açılır cevap anahtarıyla doğru, yanlış ve boşlarınızı belirleyin.
+3. **Tuzak Analizini Mutlaka Okuyun:** Yanlış yaptığınız veya tereddüt ettiğiniz sorularda **"Tuzak Analizi"** notlarını inceleyerek hangi çeldiriciye yakalandığınızı tespit edin.
+:::
+
+---
+
+## 1. LGS Deneme Sınavı 02 – Soru Kitapçığı
+
+Sınavı doğrudan aşağıdan inceleyebilir veya **"Deneme Sınavını İndir (PDF)"** butonuna tıklayarak cihazınıza kaydedip çıktısını alabilirsiniz.
+
+{{< pdf deneme2.pdf width=100% height=800px button="Deneme Sınavını İndir (PDF)" >}}
+
+---
+
+## Hızlı Cevap Anahtarı
+
+::: {.callout-note collapse="true"}
+### Cevap Anahtarını Göster / Gizle
+
+| Soru | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Cevap** | **C** | **B** | **A** | **A** | **D** | **C** | **D** | **B** | **C** | **C** |
+
+| Soru | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Cevap** | **D** | **A** | **C** | **A** | **D** | **B** | **B** | **A** | **D** | **B** |
+
+:::
+
+---
+
+## 2. Ayrıntılı Çözümlü ve Tuzak Analizli Kitapçık
+
+Sınavı tamamladıktan sonra tüm 20 sorunun adım adım çözümlerini ve çeldirici analizlerini aşağıdaki kitapçıktan inceleyebilir veya PDF olarak indirebilirsiniz.
+
+{{< pdf deneme2_cozumlu.pdf width=100% height=800px button="Çözümlü Kitapçığı İndir (PDF)" >}}
+
+---
+
+Henüz çözmediyseniz [LGS Matematik Deneme Sınavı – 01](../lgs_deneme_01/index.qmd) çalışmasına da göz atabilirsiniz. Tüm öğrencilerimize verimli çalışmalar ve LGS yolculuğunda başarılar dilerim! Görüş ve netlerinizi aşağıdaki **yorumlar** bölümünden paylaşabilirsiniz.
