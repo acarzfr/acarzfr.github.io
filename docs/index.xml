@@ -10,7 +10,194 @@
 <atom:link href="https://acarzfr.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Zafer Acar&#39;ın kişisel internet sitesi</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Sun, 22 Nov 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)</title>
+  <dc:creator>Zafer Acar</dc:creator>
+  <link>https://acarzfr.github.io/posts/meb_2026_2027_ornek_01/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,</p>
+<p>Millî Eğitim Bakanlığı (MEB) Ölçme, Değerlendirme ve Sınav Hizmetleri Genel Müdürlüğü tarafından <strong>2026–2027 Eğitim ve Öğretim Yılı</strong> Merkezî Sınavına (LGS) yönelik yayımlanan <strong>Sayısal Bölüm Örnek Sorular</strong> kitapçığındaki <strong>10 matematik sorusunun</strong> tamamı için hazırladığım <strong>adım adım ve şekilli çözüm kitapçığını</strong> sizlerle paylaşıyorum.</p>
+<p>Her sorunun altında yalnızca işlem basamakları değil; sayı doğrusu gösterimleri, şekil üzerindeki kenar–açı eşleştirmeleri, 3 boyutlu prizma ve silindir açılımları gibi görsel açıklamalar da yer almaktadır.</p>
+<hr>
+<section id="soru-ve-konu-dağılımı" class="level2">
+<h2 class="anchored" data-anchor-id="soru-ve-konu-dağılımı">Soru ve Konu Dağılımı</h2>
+<p>Kitapçıkta yer alan 10 matematik sorusu, 8. sınıf müfredatındaki tüm ana ünitelerden seçilmiş kapsamlı kazanımları ölçmektedir:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: left;">Konu / Ünite</th>
+<th style="text-align: left;">Soru Odağı</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: left;">Üslü İfadeler</td>
+<td style="text-align: left;">Ondalık gösterimi tam sayılı üslü biçime çevirme (<img src="https://latex.codecogs.com/png.latex?10%20=%202%20%5Ccdot%205">)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: left;">Kareköklü İfadeler</td>
+<td style="text-align: left;">Alanı doğal sayı olan dikdörtgenin kenar aralığı (<img src="https://latex.codecogs.com/png.latex?a%5Csqrt%7Bb%7D"> çarpımı)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">Eşitsizlikler</td>
+<td style="text-align: left;">Tablo verilerini <img src="https://latex.codecogs.com/png.latex?-3%20%5Cle%20x%20%3C%205"> eşitsizliği ile sayı doğrusunda yorumlama</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: left;">Doğrusal Denklemler</td>
+<td style="text-align: left;">Üst üste binen şerit uzunluklarıyla bir bilinmeyenli denklem kurma</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: left;">Cebirsel İfadeler ve Özdeşlikler</td>
+<td style="text-align: left;">Tam kare ifadelerden kenar bulma ve L-parçası çevre hesabı</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: left;">Üçgenler (Açı–Kenar İlişkileri)</td>
+<td style="text-align: left;">Kare kenarıyla karşılaştırarak üçgen açılarının sıralanması</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: left;">Basit Olayların Olma Olasılığı</td>
+<td style="text-align: left;">Üç yüzü boyalı dikdörtgenler prizmasında boyasız iç blok yöntemi</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>8</strong></td>
+<td style="text-align: left;">Çarpanlar ve Katlar (EKOK)</td>
+<td style="text-align: left;">Çubuk ayrılımları üzerinden ortak kat ve sınır koşulu analizi</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>9</strong></td>
+<td style="text-align: left;">Veri Analizi (Daire Grafikleri)</td>
+<td style="text-align: left;">İki farklı daire grafiğini oranlayarak toplam baskı sayısı bulma</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>10</strong></td>
+<td style="text-align: left;">Geometrik Cisimler (Silindir)</td>
+<td style="text-align: left;">Dikdörtgen açılımından silindir yarıçapı, yüksekliği ve hacmi (<img src="https://latex.codecogs.com/png.latex?V%20=%20%5Cpi%20r%5E2%20h">)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">İpucu</span>Çözüm Kitapçığından En Yüksek Verimi Almak İçin
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Önce Kendiniz Deneyin:</strong> Çözüm kutularına göz atmadan önce her soru için yaklaşık 2 dakika süre ayırıp kendi stratejinizi kurun.</li>
+<li><strong>Görsel Şemaları İnceleyin:</strong> Özellikle 5, 6, 7, 9 ve 10. sorularda çözümün yanına eklenen renkli şekil ve açılım şemalarını inceleyerek geometrik sezginizi güçlendirin.</li>
+<li><strong>Eksik Üniteleri İşaretleyin:</strong> Zorlandığınız soru numaralarına karşılık gelen üniteleri yukarıdaki tablodan not alıp ilgili konulardan ek tekrar yapın.</li>
+</ol>
+</div>
+</div>
+<hr>
+</section>
+<section id="hızlı-cevap-anahtarı" class="level2">
+<h2 class="anchored" data-anchor-id="hızlı-cevap-anahtarı">Hızlı Cevap Anahtarı</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Not</span>Cevap Anahtarını Göster / Gizle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+<th style="text-align: center;">7</th>
+<th style="text-align: center;">8</th>
+<th style="text-align: center;">9</th>
+<th style="text-align: center;">10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="çözümlü-pdf-kitapçığını-görüntüle-ve-indir" class="level2">
+<h2 class="anchored" data-anchor-id="çözümlü-pdf-kitapçığını-görüntüle-ve-indir">Çözümlü PDF Kitapçığını Görüntüle ve İndir</h2>
+<p>Tüm 10 örnek sorunun adım adım ve şekilli çözümlerini doğrudan aşağıdan inceleyebilir veya <strong>“Çözümlü Örnek Soruları İndir (PDF)”</strong> butonuna tıklayarak cihazınıza kaydedebilirsiniz.</p>
+<p></p><div><object data="ornek1_cozumlu.pdf" type="application/pdf" width="100%" height="800px"><a href="ornek1_cozumlu.pdf" download="">Download PDF file.</a></object><br><a href="ornek1_cozumlu.pdf" download="" style="display:inline-block; padding:10px 18px; background-color:#007acc; color:white; font-size:15px; border:none; border-radius:6px; cursor:pointer; text-decoration:none; transition:background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#005fa3';" onmouseout="this.style.backgroundColor='#007acc';">Çözümlü Örnek Soruları İndir (PDF)</a></div><p></p>
+<hr>
+<p>LGS hazırlık çalışmalarınıza devam etmek için <a href="../../posts/lgs_deneme_01/index.html">LGS Matematik Deneme Sınavı – 01</a> ve <a href="../../posts/lgs_deneme_02/index.html">LGS Matematik Deneme Sınavı – 02</a> paylaşımlarına da göz atabilirsiniz. Sorularla ilgili düşüncelerinizi ve farklı çözüm yollarınızı aşağıdaki <strong>yorumlar</strong> bölümünden paylaşabilirsiniz.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Başa dön</a> ]]></description>
+  <category>Matematik</category>
+  <category>LGS</category>
+  <category>8. Sınıf</category>
+  <category>MEB Örnek Sorular</category>
+  <category>Soru Çözümü</category>
+  <guid>https://acarzfr.github.io/posts/meb_2026_2027_ornek_01/</guid>
+  <pubDate>Thu, 26 Nov 2026 21:00:00 GMT</pubDate>
+  <media:content url="https://acarzfr.github.io/posts/meb_2026_2027_ornek_01/thumbnail.png" medium="image" type="image/png" height="204" width="144"/>
+</item>
 <item>
   <title>8. Sınıf LGS Matematik Deneme Sınavı – 02 (Çözümlü ve Tuzak Analizli)</title>
   <dc:creator>Zafer Acar</dc:creator>

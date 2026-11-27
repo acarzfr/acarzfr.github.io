@@ -42,20 +42,6 @@
     "text": "2. Ayrıntılı Çözümlü ve Tuzak Analizli Kitapçık\nSınavı tamamladıktan sonra tüm 20 sorunun adım adım çözümlerini ve her şıkkın arkasındaki çeldirici/tuzak analizlerini aşağıdaki kitapçıktan inceleyebilir veya PDF olarak indirebilirsiniz.\nDownload PDF file.Çözümlü Kitapçığı İndir (PDF)\n\nTüm öğrencilerimize verimli çalışmalar ve LGS yolculuğunda başarılar dilerim! Sorularla ilgili düşüncelerinizi ve netlerinizi aşağıdaki yorumlar bölümünden paylaşabilirsiniz."
   },
   {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Kitaplar",
-    "section": "",
-    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
-  },
-  {
-    "objectID": "books.html#temel-sayılar-teorisi-problemi",
-    "href": "books.html#temel-sayılar-teorisi-problemi",
-    "title": "Kitaplar",
-    "section": "",
-    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
-  },
-  {
     "objectID": "posts/lgs_deneme_02/index.html",
     "href": "posts/lgs_deneme_02/index.html",
     "title": "8. Sınıf LGS Matematik Deneme Sınavı – 02 (Çözümlü ve Tuzak Analizli)",
@@ -91,10 +77,52 @@
     "text": "2. Ayrıntılı Çözümlü ve Tuzak Analizli Kitapçık\nSınavı tamamladıktan sonra tüm 20 sorunun adım adım çözümlerini ve çeldirici analizlerini aşağıdaki kitapçıktan inceleyebilir veya PDF olarak indirebilirsiniz.\nDownload PDF file.Çözümlü Kitapçığı İndir (PDF)\n\nHenüz çözmediyseniz LGS Matematik Deneme Sınavı – 01 çalışmasına da göz atabilirsiniz. Tüm öğrencilerimize verimli çalışmalar ve LGS yolculuğunda başarılar dilerim! Görüş ve netlerinizi aşağıdaki yorumlar bölümünden paylaşabilirsiniz."
   },
   {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Kitaplar",
+    "section": "",
+    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
+  },
+  {
+    "objectID": "books.html#temel-sayılar-teorisi-problemi",
+    "href": "books.html#temel-sayılar-teorisi-problemi",
+    "title": "Kitaplar",
+    "section": "",
+    "text": "Matematik dünyasına değerli katkılar sunmuş olan Wacław Sierpiński’nin klasik eseri 250 Problems in Elementary Number Theory’nin Türkçe çevirisi için buraya tıklayınız."
+  },
+  {
+    "objectID": "posts/meb_2026_2027_ornek_01/index.html",
+    "href": "posts/meb_2026_2027_ornek_01/index.html",
+    "title": "2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)",
+    "section": "",
+    "text": "Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,\nMillî Eğitim Bakanlığı (MEB) Ölçme, Değerlendirme ve Sınav Hizmetleri Genel Müdürlüğü tarafından 2026–2027 Eğitim ve Öğretim Yılı Merkezî Sınavına (LGS) yönelik yayımlanan Sayısal Bölüm Örnek Sorular kitapçığındaki 10 matematik sorusunun tamamı için hazırladığım adım adım ve şekilli çözüm kitapçığını sizlerle paylaşıyorum.\nHer sorunun altında yalnızca işlem basamakları değil; sayı doğrusu gösterimleri, şekil üzerindeki kenar–açı eşleştirmeleri, 3 boyutlu prizma ve silindir açılımları gibi görsel açıklamalar da yer almaktadır."
+  },
+  {
+    "objectID": "posts/meb_2026_2027_ornek_01/index.html#soru-ve-konu-dağılımı",
+    "href": "posts/meb_2026_2027_ornek_01/index.html#soru-ve-konu-dağılımı",
+    "title": "2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)",
+    "section": "Soru ve Konu Dağılımı",
+    "text": "Soru ve Konu Dağılımı\nKitapçıkta yer alan 10 matematik sorusu, 8. sınıf müfredatındaki tüm ana ünitelerden seçilmiş kapsamlı kazanımları ölçmektedir:\n\n\n\n\n\n\n\n\nSoru\nKonu / Ünite\nSoru Odağı\n\n\n\n\n1\nÜslü İfadeler\nOndalık gösterimi tam sayılı üslü biçime çevirme (10 = 2 \\cdot 5)\n\n\n2\nKareköklü İfadeler\nAlanı doğal sayı olan dikdörtgenin kenar aralığı (a\\sqrt{b} çarpımı)\n\n\n3\nEşitsizlikler\nTablo verilerini -3 \\le x &lt; 5 eşitsizliği ile sayı doğrusunda yorumlama\n\n\n4\nDoğrusal Denklemler\nÜst üste binen şerit uzunluklarıyla bir bilinmeyenli denklem kurma\n\n\n5\nCebirsel İfadeler ve Özdeşlikler\nTam kare ifadelerden kenar bulma ve L-parçası çevre hesabı\n\n\n6\nÜçgenler (Açı–Kenar İlişkileri)\nKare kenarıyla karşılaştırarak üçgen açılarının sıralanması\n\n\n7\nBasit Olayların Olma Olasılığı\nÜç yüzü boyalı dikdörtgenler prizmasında boyasız iç blok yöntemi\n\n\n8\nÇarpanlar ve Katlar (EKOK)\nÇubuk ayrılımları üzerinden ortak kat ve sınır koşulu analizi\n\n\n9\nVeri Analizi (Daire Grafikleri)\nİki farklı daire grafiğini oranlayarak toplam baskı sayısı bulma\n\n\n10\nGeometrik Cisimler (Silindir)\nDikdörtgen açılımından silindir yarıçapı, yüksekliği ve hacmi (V = \\pi r^2 h)\n\n\n\n\n\n\n\n\n\n\nİpucuÇözüm Kitapçığından En Yüksek Verimi Almak İçin\n\n\n\n\nÖnce Kendiniz Deneyin: Çözüm kutularına göz atmadan önce her soru için yaklaşık 2 dakika süre ayırıp kendi stratejinizi kurun.\nGörsel Şemaları İnceleyin: Özellikle 5, 6, 7, 9 ve 10. sorularda çözümün yanına eklenen renkli şekil ve açılım şemalarını inceleyerek geometrik sezginizi güçlendirin.\nEksik Üniteleri İşaretleyin: Zorlandığınız soru numaralarına karşılık gelen üniteleri yukarıdaki tablodan not alıp ilgili konulardan ek tekrar yapın."
+  },
+  {
+    "objectID": "posts/meb_2026_2027_ornek_01/index.html#hızlı-cevap-anahtarı",
+    "href": "posts/meb_2026_2027_ornek_01/index.html#hızlı-cevap-anahtarı",
+    "title": "2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)",
+    "section": "Hızlı Cevap Anahtarı",
+    "text": "Hızlı Cevap Anahtarı\n\n\n\n\n\n\nNotCevap Anahtarını Göster / Gizle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoru\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n\n\n\n\nCevap\nA\nB\nC\nA\nD\nD\nA\nC\nB\nC"
+  },
+  {
+    "objectID": "posts/meb_2026_2027_ornek_01/index.html#çözümlü-pdf-kitapçığını-görüntüle-ve-indir",
+    "href": "posts/meb_2026_2027_ornek_01/index.html#çözümlü-pdf-kitapçığını-görüntüle-ve-indir",
+    "title": "2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)",
+    "section": "Çözümlü PDF Kitapçığını Görüntüle ve İndir",
+    "text": "Çözümlü PDF Kitapçığını Görüntüle ve İndir\nTüm 10 örnek sorunun adım adım ve şekilli çözümlerini doğrudan aşağıdan inceleyebilir veya “Çözümlü Örnek Soruları İndir (PDF)” butonuna tıklayarak cihazınıza kaydedebilirsiniz.\nDownload PDF file.Çözümlü Örnek Soruları İndir (PDF)\n\nLGS hazırlık çalışmalarınıza devam etmek için LGS Matematik Deneme Sınavı – 01 ve LGS Matematik Deneme Sınavı – 02 paylaşımlarına da göz atabilirsiniz. Sorularla ilgili düşüncelerinizi ve farklı çözüm yollarınızı aşağıdaki yorumlar bölümünden paylaşabilirsiniz."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Acar Matematik",
     "section": "",
-    "text": "8. Sınıf LGS Matematik Deneme Sınavı – 02 (Çözümlü ve Tuzak Analizli)\n\n\n\nMatematik\n\nLGS\n\n8. Sınıf\n\nDeneme Sınavı\n\n\n\n\nLGS (8. sınıf) hazırlık sürecine özel Çarpanlar ve Katlar, Üslü İfadeler ve Kareköklü İfadeler konularını kapsayan 20 soruluk Matematik Deneme Sınavı 02 ile ayrıntılı çözümlü ve tuzak analizli kitapçığı.\n\n\n\n\n\n\n23 Kas 2026\n\n\nZafer Acar\n\n\n\n\n\n\n\n\n\n\n\n\n8. Sınıf LGS Matematik Deneme Sınavı – 01 (Çözümlü ve Tuzak Analizli)\n\n\n\nMatematik\n\nLGS\n\n8. Sınıf\n\nDeneme Sınavı\n\n\n\n\nLGS (8. sınıf) hazırlık sürecine özel Çarpanlar ve Katlar, Üslü İfadeler ve Kareköklü İfadeler konularını kapsayan 20 soruluk Matematik Deneme Sınavı 01 ve ayrıntılı tuzak analizli çözüm kitapçığı.\n\n\n\n\n\n\n17 Kas 2026\n\n\nZafer Acar\n\n\n\n\n\nEşleşen öğe yok\n Başa dön"
+    "text": "2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)\n\n\n\nMatematik\n\nLGS\n\n8. Sınıf\n\nMEB Örnek Sorular\n\nSoru Çözümü\n\n\n\n\nMEB Ölçme, Değerlendirme ve Sınav Hizmetleri Genel Müdürlüğü tarafından yayımlanan 2026–2027 LGS Sayısal Bölüm örnek sorularındaki 10 matematik sorusunun adım adım, şekilli çözümleri ve PDF kitapçığı.\n\n\n\n\n\n\n27 Kas 2026\n\n\nZafer Acar\n\n\n\n\n\n\n\n\n\n\n\n\n8. Sınıf LGS Matematik Deneme Sınavı – 02 (Çözümlü ve Tuzak Analizli)\n\n\n\nMatematik\n\nLGS\n\n8. Sınıf\n\nDeneme Sınavı\n\n\n\n\nLGS (8. sınıf) hazırlık sürecine özel Çarpanlar ve Katlar, Üslü İfadeler ve Kareköklü İfadeler konularını kapsayan 20 soruluk Matematik Deneme Sınavı 02 ile ayrıntılı çözümlü ve tuzak analizli kitapçığı.\n\n\n\n\n\n\n23 Kas 2026\n\n\nZafer Acar\n\n\n\n\n\n\n\n\n\n\n\n\n8. Sınıf LGS Matematik Deneme Sınavı – 01 (Çözümlü ve Tuzak Analizli)\n\n\n\nMatematik\n\nLGS\n\n8. Sınıf\n\nDeneme Sınavı\n\n\n\n\nLGS (8. sınıf) hazırlık sürecine özel Çarpanlar ve Katlar, Üslü İfadeler ve Kareköklü İfadeler konularını kapsayan 20 soruluk Matematik Deneme Sınavı 01 ve ayrıntılı tuzak analizli çözüm kitapçığı.\n\n\n\n\n\n\n17 Kas 2026\n\n\nZafer Acar\n\n\n\n\n\nEşleşen öğe yok\n Başa dön"
   }
 ]
