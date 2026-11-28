@@ -10,7 +10,313 @@
 <atom:link href="https://acarzfr.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Zafer Acar&#39;ın kişisel internet sitesi</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Thu, 26 Nov 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>MEBİ 8. Sınıf Matematik Tekrar Fasikülü – 1 (46 Soru ve Çözümlü Kitapçık)</title>
+  <dc:creator>Zafer Acar</dc:creator>
+  <link>https://acarzfr.github.io/posts/mebi_tekrar_fasikulu_01/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Merhaba sevgili öğrenciler, kıymetli veliler ve değerli meslektaşlarım,</p>
+<p>Millî Eğitim Bakanlığı Temel Eğitim Genel Müdürlüğü <strong>MEBİ Komisyonu</strong> tarafından LGS’ye hazırlanan 8. sınıf öğrencileri için yayımlanan <strong>8. Sınıf Matematik Tekrar Fasikülü – 1</strong> çalışmasını, tüm <strong>46 sorunun adım adım ve şekilli açıklamalarını</strong> içeren çözümlü kopyasıyla birlikte sizlerle paylaşıyorum.</p>
+<p>Bu fasikül, ilk dönemin temelini oluşturan üç büyük üniteyi kapsamlı, günlük hayat kurgulu ve seçici yeni nesil sorularla pekiştirmek için mükemmel bir tekrar kaynağıdır.</p>
+<hr>
+<section id="fasikül-içeriği-ve-konu-dağılımı" class="level2">
+<h2 class="anchored" data-anchor-id="fasikül-içeriği-ve-konu-dağılımı">Fasikül İçeriği ve Konu Dağılımı</h2>
+<p>Toplam <strong>46 adet çoktan seçmeli yeni nesil sorudan</strong> oluşan fasikülün ünite dağılımı şu şekildedir:</p>
+<ol type="1">
+<li><strong>Çarpanlar ve Katlar (Soru 1–16 — 16 Soru):</strong>
+<ul>
+<li>Aralarında asal sayılar, pozitif tam sayı çarpan sayısı (tam kare özellikleri) ve asal çarpanlar toplamı</li>
+<li>Günlük hayat kurgulu EBOB–EKOK problemleri (ip ve şerit kesimi, merdiven modeli, karton/pano kaplama, dairesel pist periyodu, bileklik kutulama ve fayansla kare zemin)</li>
+</ul></li>
+<li><strong>Üslü İfadeler (Soru 17–31 — 15 Soru):</strong>
+<ul>
+<li>Negatif üs, sayı doğrusunda uzaklık ve bölme konumu analizi</li>
+<li>Kâğıt katlama, daire dizilimi, çubuk örüntüsü, boyama makineleri ve levhalı zemin problemleri</li>
+<li>Ondalık gösterimlerin çözümlenmesi ve bilimsel gösterim (deney kapsülleri, lazer cihazları, uzay aracı yakıtı, lojistik bandı ve afiş alanı)</li>
+</ul></li>
+<li><strong>Kareköklü İfadeler (Soru 32–46 — 15 Soru):</strong>
+<ul>
+<li>Tam kare sayılar, alan–kenar ilişkileri ve en az/en çok optimizasyon soruları</li>
+<li><img src="https://latex.codecogs.com/png.latex?a%5Csqrt%7Bb%7D"> dönüşümü, ondalık ifadelerin karekökü ve kareköklü ifadelerle dört işlem</li>
+<li>Rasyonel–irrasyonel sayı ayrımı (çarpım tablosu) ile kareköklü sayıların hangi ardışık iki doğal sayı arasında olduğunu belirleme</li>
+</ul></li>
+</ol>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">İpucu</span>Bu Fasikülden En Yüksek Verimi Almak İçin Öneriler
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Ünite Ünite Bölerek Çözün:</strong> 46 sorunun tamamını tek seferde çözmek yerine <strong>1–16 (Çarpanlar ve Katlar)</strong>, <strong>17–31 (Üslü İfadeler)</strong> ve <strong>32–46 (Kareköklü İfadeler)</strong> şeklinde üç oturumda çözmeniz veriminizi artırır.</li>
+<li><strong>Önce Kendi Çözümünüzü Deneyin:</strong> Çözümlü fasikülü açmadan önce ham soru kitapçığından (<code>fasikul1.pdf</code>) soruları çözüp aşağıdaki hızlı cevap anahtarıyla kontrol edin.</li>
+<li><strong>Şekilli Çözümleri İnceleyin:</strong> Yanlış yaptığınız veya uzun yoldan çözdüğünüz sorularda çözümlü fasiküldeki adım adım açıklamaları ve görsel şemaları mutlaka inceleyin.</li>
+</ol>
+</div>
+</div>
+<hr>
+</section>
+<section id="mebi-8.-sınıf-matematik-tekrar-fasikülü-1-soru-kitapçığı" class="level2">
+<h2 class="anchored" data-anchor-id="mebi-8.-sınıf-matematik-tekrar-fasikülü-1-soru-kitapçığı">1. MEBİ 8. Sınıf Matematik Tekrar Fasikülü – 1 (Soru Kitapçığı)</h2>
+<p>46 soruluk fasikülü doğrudan aşağıdan inceleyebilir veya <strong>“Tekrar Fasikülünü İndir (PDF)”</strong> butonuna tıklayarak cihazınıza kaydedip çıktısını alabilirsiniz.</p>
+<p></p><div><object data="fasikul1.pdf" type="application/pdf" width="100%" height="800px"><a href="fasikul1.pdf" download="">Download PDF file.</a></object><br><a href="fasikul1.pdf" download="" style="display:inline-block; padding:10px 18px; background-color:#007acc; color:white; font-size:15px; border:none; border-radius:6px; cursor:pointer; text-decoration:none; transition:background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#005fa3';" onmouseout="this.style.backgroundColor='#007acc';">Tekrar Fasikülünü İndir (PDF)</a></div><p></p>
+<hr>
+</section>
+<section id="hızlı-cevap-anahtarı" class="level2">
+<h2 class="anchored" data-anchor-id="hızlı-cevap-anahtarı">Hızlı Cevap Anahtarı</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Not</span>Cevap Anahtarını Göster / Gizle (46 Soru)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+<th style="text-align: center;">7</th>
+<th style="text-align: center;">8</th>
+<th style="text-align: center;">9</th>
+<th style="text-align: center;">10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">11</th>
+<th style="text-align: center;">12</th>
+<th style="text-align: center;">13</th>
+<th style="text-align: center;">14</th>
+<th style="text-align: center;">15</th>
+<th style="text-align: center;">16</th>
+<th style="text-align: center;">17</th>
+<th style="text-align: center;">18</th>
+<th style="text-align: center;">19</th>
+<th style="text-align: center;">20</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">21</th>
+<th style="text-align: center;">22</th>
+<th style="text-align: center;">23</th>
+<th style="text-align: center;">24</th>
+<th style="text-align: center;">25</th>
+<th style="text-align: center;">26</th>
+<th style="text-align: center;">27</th>
+<th style="text-align: center;">28</th>
+<th style="text-align: center;">29</th>
+<th style="text-align: center;">30</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">31</th>
+<th style="text-align: center;">32</th>
+<th style="text-align: center;">33</th>
+<th style="text-align: center;">34</th>
+<th style="text-align: center;">35</th>
+<th style="text-align: center;">36</th>
+<th style="text-align: center;">37</th>
+<th style="text-align: center;">38</th>
+<th style="text-align: center;">39</th>
+<th style="text-align: center;">40</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Soru</th>
+<th style="text-align: center;">41</th>
+<th style="text-align: center;">42</th>
+<th style="text-align: center;">43</th>
+<th style="text-align: center;">44</th>
+<th style="text-align: center;">45</th>
+<th style="text-align: center;">46</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Cevap</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>D</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>C</strong></td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;"><strong>A</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="adım-adım-ve-şekilli-çözümlü-fasikül" class="level2">
+<h2 class="anchored" data-anchor-id="adım-adım-ve-şekilli-çözümlü-fasikül">2. Adım Adım ve Şekilli Çözümlü Fasikül</h2>
+<p>Fasiküldeki <strong>46 sorunun tamamının</strong> ayrıntılı işlem basamaklarını ve görsel açıklamalarını aşağıdaki kitapçıktan inceleyebilir veya PDF olarak indirebilirsiniz.</p>
+<p></p><div><object data="fasikul1_cozumlu.pdf" type="application/pdf" width="100%" height="800px"><a href="fasikul1_cozumlu.pdf" download="">Download PDF file.</a></object><br><a href="fasikul1_cozumlu.pdf" download="" style="display:inline-block; padding:10px 18px; background-color:#007acc; color:white; font-size:15px; border:none; border-radius:6px; cursor:pointer; text-decoration:none; transition:background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#005fa3';" onmouseout="this.style.backgroundColor='#007acc';">Çözümlü Fasikülü İndir (PDF)</a></div><p></p>
+<hr>
+<p>LGS hazırlık çalışmalarınıza devam etmek için <a href="../../posts/meb_2026_2027_ornek_01/index.html">2026–2027 MEB LGS Matematik Örnek Soruları</a>, <a href="../../posts/lgs_deneme_01/index.html">LGS Deneme Sınavı – 01</a> ve <a href="../../posts/lgs_deneme_02/index.html">LGS Deneme Sınavı – 02</a> paylaşımlarına da göz atabilirsiniz. Sorularla ilgili düşüncelerinizi ve takıldığınız noktaları aşağıdaki <strong>yorumlar</strong> bölümünden paylaşabilirsiniz.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Başa dön</a> ]]></description>
+  <category>Matematik</category>
+  <category>LGS</category>
+  <category>8. Sınıf</category>
+  <category>MEBİ</category>
+  <category>Tekrar Fasikülü</category>
+  <category>Soru Çözümü</category>
+  <guid>https://acarzfr.github.io/posts/mebi_tekrar_fasikulu_01/</guid>
+  <pubDate>Fri, 27 Nov 2026 21:00:00 GMT</pubDate>
+  <media:content url="https://acarzfr.github.io/posts/mebi_tekrar_fasikulu_01/thumbnail.png" medium="image" type="image/png" height="203" width="144"/>
+</item>
 <item>
   <title>2026–2027 MEB LGS Matematik Örnek Soruları (Adım Adım ve Şekilli Çözümler)</title>
   <dc:creator>Zafer Acar</dc:creator>
